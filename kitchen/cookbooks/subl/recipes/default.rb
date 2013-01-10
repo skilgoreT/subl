@@ -19,7 +19,11 @@ execute "inflate-tarball" do
 end
 
 execute "make-links" do
-  command "ln -sf #{ENV['HOME']}/bin/pkg/Sublime\\ Text\\ 2/sublime_text #{ENV['HOME']}/bin/subl"  
+  if platform?("ubuntu")
+    command "ln -sf #{ENV['HOME']}/bin/pkg/Sublime\\ Text\\ 2/sublime_text #{ENV['HOME']}/bin/subl"  
+  elsif platform?("mac_os_x")
+    command "ln -sf #{ENV['HOME']}/bin/pkg/Sublime\\ Text\\ 2.app/Contents/SharedSupport/bin/subl #{ENV['HOME']}/bin/subl"
+  end
   action :nothing
 end
   
