@@ -11,7 +11,7 @@ The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c so
 In the event that you add new packages or keybindings the push recipe will tar up the current state of sublime on either platform and push it to github
 ```
 > # from the kitchen directory
-> chef 'chef-solo -c solor.rb -j push.json'
+> chef 'chef-solo -c solo.rb -j push.json'
 ```
 
 ## Authors
