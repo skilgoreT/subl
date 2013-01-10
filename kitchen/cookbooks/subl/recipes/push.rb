@@ -10,9 +10,9 @@ execute "push" do
     dir = File.join(FILES_DIR, 'mac_os_x')
     command "tar cvfz #{File.join(dir,SUBL_TAR)} #{SUBL_DIR}.app #{SUBL_DIR}"
   end
-  puts Dir.chdir(File.dirname(__FILE__))
-  `git commit -a -m"update subl packages and settings"`
-  `{}git push -u origin master`
+  Dir.chdir(File.dirname(__FILE__))
+  puts `git commit -a -m"update subl packages and settings"`
+  puts `git push -u origin master`
 end
   
 
