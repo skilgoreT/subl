@@ -1,6 +1,7 @@
 TEMP_TARBALL = "/tmp/chef-solo/subl_2.0.1.tar.gz"
+SUBL_TAR = "subl_2.0.1.tar.gz"
 cookbook_file TEMP_TARBALL do
-  source "subl_2.0.1.tar.gz"
+  source SUBL_TAR
   owner `whoami`.chomp
   group `groups`.split(/\s+/)[0]
   mode "0644"
@@ -18,14 +19,14 @@ execute "inflate-tarball" do
   notifies :run, "execute[make-links]"
 end
 
+SUBL_DIR = "#{ENV['HOME']}/bin/pkg/Sublime\\ Text\\ 2"
+SUBL_CLI = "#{ENV['HOME']}/bin/subl"
 execute "make-links" do
   if platform?("ubuntu")
-    command "ln -sf #{ENV['HOME']}/bin/pkg/Sublime\\ Text\\ 2/sublime_text #{ENV['HOME']}/bin/subl"  
+    command "ln -sf #{SUBL_DIR}/sublime_text #{SUBL_CLI}"  
   elsif platform?("mac_os_x")
-    command "ln -sf #{ENV['HOME']}/bin/pkg/Sublime\\ Text\\ 2.app/Contents/SharedSupport/bin/subl #{ENV['HOME']}/bin/subl"
+    command "ln -sf #{SUBL_DIR}.app/Contents/SharedSupport/bin/subl #{SUBL_CLI}"
   end
   action :nothing
 end
-  
-
 
