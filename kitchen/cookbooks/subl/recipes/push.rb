@@ -12,8 +12,7 @@ execute "push" do
   end
   Dir.chdir(File.dirname(__FILE__))
   puts 'Pushing to github'
-  puts `git commit -a -m"update subl packages and settings"`
-  puts `git push -u origin master`
+  puts `git commit -a -m"update subl packages and settings";git push`
 end
   
 
