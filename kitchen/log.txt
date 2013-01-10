@@ -1,0 +1,41 @@
+[2013-01-09T17:25:41-07:00] INFO: *** Chef 10.16.4 ***
+[2013-01-09T17:25:42-07:00] DEBUG: Building node object for mandrake.local
+[2013-01-09T17:25:42-07:00] DEBUG: Extracting run list from JSON attributes provided on command line
+[2013-01-09T17:25:42-07:00] INFO: Setting the run_list to "recipe[subl::default]" from JSON
+[2013-01-09T17:25:42-07:00] DEBUG: Applying attributes from json file
+[2013-01-09T17:25:42-07:00] DEBUG: Platform is mac_os_x version 10.7.3
+[2013-01-09T17:25:42-07:00] INFO: Run List is [recipe[subl::default]]
+[2013-01-09T17:25:42-07:00] INFO: Run List expands to [subl::default]
+[2013-01-09T17:25:42-07:00] INFO: Starting Chef Run for mandrake.local
+[2013-01-09T17:25:42-07:00] INFO: Running start handlers
+[2013-01-09T17:25:42-07:00] INFO: Start handlers complete.
+[2013-01-09T17:25:42-07:00] DEBUG: No chefignore file found at /Users/seakelly/dev/subl/kitchen/cookbooks/chefignore no files will be ignored
+[2013-01-09T17:25:42-07:00] DEBUG: Loading Recipe subl::default via include_recipe
+[2013-01-09T17:25:42-07:00] DEBUG: Found recipe default in cookbook subl
+[2013-01-09T17:25:42-07:00] DEBUG: Loading from cookbook_path: /Users/seakelly/dev/subl/kitchen/cookbooks
+[2013-01-09T17:25:42-07:00] DEBUG: Converging node mandrake.local
+[2013-01-09T17:25:42-07:00] INFO: Processing cookbook_file[/tmp/chef-solo/subl_2.0.1.tar.gz] action create (subl::default line 2)
+[2013-01-09T17:25:42-07:00] DEBUG: Skipping file /Users/seakelly/dev/subl/kitchen/cookbooks/subl/files/.placeholder, as it isn't in any of the proper directories (platform-version, platform or default)
+[2013-01-09T17:25:42-07:00] DEBUG: You probably need to move /Users/seakelly/dev/subl/kitchen/cookbooks/subl/files/.placeholder into the 'default' sub-directory
+[2013-01-09T17:25:42-07:00] DEBUG: File /tmp/chef-solo/subl_2.0.1.tar.gz does not exist, so there is no checksum to generate
+[2013-01-09T17:25:42-07:00] DEBUG: cookbook_file[/tmp/chef-solo/subl_2.0.1.tar.gz] has new contents
+[2013-01-09T17:25:42-07:00] DEBUG: cookbook_file[/tmp/chef-solo/subl_2.0.1.tar.gz] staging /Users/seakelly/dev/subl/kitchen/cookbooks/subl/files/mac_os_x/subl_2.0.1.tar.gz to /var/folders/8g/r6p9tm252g33ltph_qp9wys80000gp/T/subl_2.0.1.tar.gz20130109-18263-1h7wsg0
+[2013-01-09T17:25:42-07:00] INFO: cookbook_file[/tmp/chef-solo/subl_2.0.1.tar.gz] owner changed to 502
+[2013-01-09T17:25:42-07:00] INFO: cookbook_file[/tmp/chef-solo/subl_2.0.1.tar.gz] group changed to 20
+[2013-01-09T17:25:42-07:00] INFO: cookbook_file[/tmp/chef-solo/subl_2.0.1.tar.gz] mode changed to 644
+[2013-01-09T17:25:42-07:00] INFO: cookbook_file[/tmp/chef-solo/subl_2.0.1.tar.gz] created file /tmp/chef-solo/subl_2.0.1.tar.gz
+[2013-01-09T17:25:42-07:00] INFO: Processing execute[mkdir] action run (subl::default line 9)
+[2013-01-09T17:25:42-07:00] DEBUG: execute[mkdir] sentinel file /Users/seakelly/bin/pkg exists - nothing to do
+[2013-01-09T17:25:42-07:00] INFO: Processing execute[inflate-tarball] action run (subl::default line 16)
+[2013-01-09T17:25:43-07:00] INFO: execute[inflate-tarball] ran successfully
+[2013-01-09T17:25:43-07:00] INFO: Processing execute[make-links] action nothing (subl::default line 21)
+[2013-01-09T17:25:43-07:00] DEBUG: Doing nothing for execute[make-links]
+[2013-01-09T17:25:43-07:00] INFO: execute[inflate-tarball] sending run action to execute[make-links] (delayed)
+[2013-01-09T17:25:43-07:00] INFO: Processing execute[make-links] action run (subl::default line 21)
+[2013-01-09T17:25:43-07:00] INFO: execute[make-links] ran successfully
+[2013-01-09T17:25:43-07:00] INFO: Chef Run complete in 0.677982 seconds
+[2013-01-09T17:25:43-07:00] DEBUG: Cleaning the checksum cache
+[2013-01-09T17:25:43-07:00] DEBUG: Removing unused checksum cache file /tmp/chef-solo/checksums/chef-file--tmp-chef-solo-subl_linux_2-0-1-tar-gz
+[2013-01-09T17:25:43-07:00] INFO: Running report handlers
+[2013-01-09T17:25:43-07:00] INFO: Report handlers complete
+[2013-01-09T17:25:43-07:00] DEBUG: Exiting
