@@ -14,6 +14,4 @@ execute "push" do
   puts 'Pushing to github'
   puts `git commit -a -m"update subl packages and settings";git push`
 end
-  
-
 

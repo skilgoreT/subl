@@ -7,6 +7,19 @@ The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c so
 ```
 > sudo ./install.rb
 ```
+## Installation 
+#Packages
+* PackageControl
+* Alignment
+* AdvancedNewFile
+* SublimeREPL (+pry gem for ruby)
+* JSFormat
+* StackOverflowSearch
+* CodeIntel
+
+## Keybindings
+Very emacs centric
+
 ## Push
 In the event that you add new packages or keybindings the push recipe will tar up the current state of sublime on either platform and push it to github
 ```

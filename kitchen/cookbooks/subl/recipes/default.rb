@@ -30,3 +30,6 @@ execute "make-links" do
   action :nothing
 end
 
+execute "install-gems" do
+  command "gem install pry --no-ri --no-rdoc"
+end
