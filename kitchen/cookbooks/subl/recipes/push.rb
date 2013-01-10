@@ -11,6 +11,7 @@ execute "push" do
     command "tar cvfz #{File.join(dir,SUBL_TAR)} #{SUBL_DIR}.app #{SUBL_DIR}"
   end
   Dir.chdir(File.dirname(__FILE__))
+  puts 'Pushing to github'
   puts `git commit -a -m"update subl packages and settings"`
   puts `git push -u origin master`
 end
