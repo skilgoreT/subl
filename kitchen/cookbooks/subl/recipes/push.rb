@@ -9,7 +9,7 @@ end
 SUBL_TAR = "subl_2.0.1.tar.gz"
 FILES_DIR = File.expand_path(File.join(File.dirname(__FILE__),'../files'))
 
-execute "push" do
+execute "tar" do
   if platform?("ubuntu")
     dir = File.join(FILES_DIR, 'ubuntu')
     command "tar cvfz #{File.join(dir,SUBL_TAR)} #{SUBL_DIR}.app #{SUBL_DIR}"
@@ -17,8 +17,12 @@ execute "push" do
     dir = File.join(FILES_DIR, 'mac_os_x')
     command "tar cvfz #{File.join(dir,SUBL_TAR)} #{SUBL_DIR}.app #{user_dir}"
   end
-  Dir.chdir(File.dirname(__FILE__))
+  notifies :run, "execute[push]"
+end
+
+execute "push" do
   puts 'Pushing to github'
-  puts `git commit -a -m"update subl packages and settings";git push`
+  command "cd #{File.dirname(__FILE__)}; git commit -a -m'update subl packages and settings'; git push"
+  action :nothing
 end
 
