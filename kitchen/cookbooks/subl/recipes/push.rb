@@ -1,7 +1,7 @@
 SUBL_DIR = "#{ENV['HOME']}/bin/pkg/Sublime\\ Text\\ 2"
 if platform?("ubuntu")
 elsif platform?("mac_os_x")
-  user_dir = File.join(ENV['HOME'], 'Library', 'Application\\ Data', 'Sublime\\ Text\\ 2')
+  user_dir = File.join(ENV['HOME'], 'Library', 'Application\\ Support', 'Sublime\\ Text\\ 2')
   puts "yoda #{user_dir}"
 end
 
