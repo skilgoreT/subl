@@ -41,7 +41,7 @@ unless is_gem_installed('chef')
 end
 
 Dir.chdir('kitchen')
-cmd = "chef-solo -c solo.rb -j settings.json"
+cmd = "chef-solo -c solo.rb -j install.json"
 puts cmd
 puts `#{cmd}`
 
