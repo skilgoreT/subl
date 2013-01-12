@@ -15,6 +15,8 @@ The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c so
 * SublimeREPL (+pry gem for ruby)
 * JSFormat
 * StackOverflowSearch
+* ActionScript3
+* sublemacspro
 
 ## Keybindings
 Very emacs centric
