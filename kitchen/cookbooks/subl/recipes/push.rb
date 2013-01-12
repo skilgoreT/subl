@@ -14,7 +14,7 @@ elsif platform?("mac_os_x")
   dir = File.join(FILES_DIR, 'mac_os_x')
   user_dir = File.join(ENV['HOME'], 'Library', 'Application\\ Support')
   Subl.with_logging(cmd = "tar rvf #{tarball} -C #{user_dir} Sublime\\ Text\\ 2") {system cmd}
-  Subl.with_logging(cmd = "gzip #{tarball}") {system cmd}  
+  Subl.with_logging(cmd = "gzip -f #{tarball}") {system cmd}  
   Subl.with_logging(cmd = "cd #{File.dirname(__FILE__)}; git commit -a -m'update subl packages and settings'; git push") {system cmd}
 end
 
