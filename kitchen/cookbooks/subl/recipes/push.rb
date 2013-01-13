@@ -5,14 +5,14 @@ FILES_DIR = File.expand_path(File.join(File.dirname(__FILE__),'../files'))
 
 if platform?("ubuntu")
     SUBL_USR = "sublime-text-2"
-    SUBL_APP = "Sublime Text 2"
+    SUBL_APP = "Sublime\\ Text\\ 2"
 	tar_dir = File.join(FILES_DIR, 'ubuntu')
 	tarball = File.join(tar_dir, SUBL_TAR)
 	app_dir = File.join(ENV['HOME'], 'bin')
 	usr_dir = File.join(ENV['HOME'], '.config')
 elsif platform?("mac_os_x")
-    SUBL_USR = "Sublime Text 2"
-    SUBL_APP = "Sublime Text 2.app"
+    SUBL_USR = "Sublime\\ Text\\ 2"
+    SUBL_APP = "Sublime\\ Text\\ 2.app"
 	tar_dir = File.join(FILES_DIR, 'mac_os_x')
 	tarball = File.join(tar_dir, SUBL_TAR)
 	usr_dir = File.join(ENV['HOME'], 'Library', 'Application\\ Support')
