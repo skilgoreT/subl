@@ -19,8 +19,8 @@ elsif platform?("mac_os_x")
 	app_dir = File.join('', 'Applications')
 end
 
-Subl.with_logging(cmd = "tar cvf #{File.join(tar_dir,SUBL_TAR)} -C #{app_dir} #{SUBL_APP}") {system cmd}
-Subl.with_logging(cmd = "tar rvf #{tarball} -C #{usr_dir} #{SUBL_USR}") {system cmd}
+Subl.with_logging(cmd = "tar cf #{File.join(tar_dir,SUBL_TAR)} -C #{app_dir} #{SUBL_APP}") {system cmd}
+Subl.with_logging(cmd = "tar rf #{tarball} -C #{usr_dir} #{SUBL_USR}") {system cmd}
 Subl.with_logging(cmd = "gzip -f #{tarball}") {system cmd}  
 Subl.with_logging(cmd = "cd #{File.dirname(__FILE__)}; git commit -a -m'update subl packages and settings'; git push") {system cmd}
 
