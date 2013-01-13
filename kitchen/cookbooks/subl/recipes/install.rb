@@ -12,20 +12,24 @@
        SUBL_APP = "Sublime Text 2"
        TMP_SUBL_APP = File.join("", "tmp", SUBL_APP)
        TMP_SUBL_USR = File.join("", "tmp", SUBL_USR)
-       tgt = File.join(ENV['HOME'], '.config', SUBL_USR)
+       app_tgt = File.join(ENV['HOME'], 'bin', SUBL_APP)
+       usr_tgt = File.join(ENV['HOME'], '.config', SUBL_USR)
+       app = File.join(app_tgt,'sublime_text')
      elsif platform?("mac_os_x")
        SUBL_USR = "Sublime Text 2"
        SUBL_APP = "Sublime Text 2.app"
        TMP_SUBL_APP = File.join("", "tmp", SUBL_APP)
        TMP_SUBL_USR = File.join("", "tmp", SUBL_USR)
-       tgt = File.join(ENV['HOME'], 'Library', 'Application Support', SUBL_USR)
+       app_tgt = File.join('', 'Applications', SUBL_APP)
+       usr_tgt = File.join(ENV['HOME'], 'Library', 'Application Support', SUBL_USR)
+       app = File.join("", "Applications", SUBL_APP, "Contents", "SharedSupport", "bin", "subl")
      end
-     FileUtils.rm_rf(tgt) if Dir.exist?(tgt)    
-     tgt = File.join('', 'Applications', SUBL_APP)
-     FileUtils.rm_rf(tgt) if Dir.exist?(tgt)
-     FileUtils.cp_r(TMP_SUBL_APP, tgt)
-     installed_app = File.join("", "Applications", SUBL_APP, "Contents", "SharedSupport", "bin", "subl")
-     FileUtils.ln_sf(installed_app, File.join(ENV['HOME'], "bin", "subl"))
+     FileUtils.rm_rf(app_tgt) if Dir.exist?(app_tgt)    
+     FileUtils.cp_r(TMP_SUBL_APP, app_tgt)
+     FileUtils.rm_rf(usr_tgt) if Dir.exist?(usr_tgt)    
+     FileUtils.cp_r(TMP_SUBL_USR, usr_tgt)
+     FileUtils.ln_sf(app, File.join(ENV['HOME'], "bin", "subl"))
+     # Ruby support for SublimeREPL
      Subl.with_logging( cmd = "gem install pry --no-ri --no-rdoc") { system cmd }
    end
  end
