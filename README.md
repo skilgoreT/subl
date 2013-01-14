@@ -25,7 +25,7 @@ In the event that you add new packages or keybindings the push recipe will tar u
 > chef 'chef-solo -c solo.rb -j push.json'
 ```
 ## Keybindings
-very emacs centric
+
 
 ## Authors
 
