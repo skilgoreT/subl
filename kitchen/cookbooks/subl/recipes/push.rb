@@ -1,7 +1,7 @@
 require File.expand_path(File.join(File.dirname(__FILE__), 'subl'))
 
-SUBL_TAR = "subl_2.0.1.tar"
-SUBL_USR_TAR = "subl_usr.tar"
+SUBL_TAR = "subl_2.0.1.tgz"
+SUBL_USR_TAR = "subl_usr.tgz"
 FILES_DIR = File.expand_path(File.join(File.dirname(__FILE__),'../files'))
 USR_TAR_DIR = File.join(FILES_DIR, 'default')
 SUBL_USR_TARBALL = File.join(USR_TAR_DIR, SUBL_USR_TAR)
