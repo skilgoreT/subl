@@ -32,7 +32,7 @@
      FileUtils.mkdir(USR_TGT)
      # Need to escape spaces in string before feeding to TAR
      target = USR_TGT.gsub(/(\s)/, "\\ ")
-     Subl.with_logging(cmd = "tar xvzf #{USR_TARBALL} -C #{target} .") {system cmd}
+     Subl.with_logging(cmd = "tar xvzf #{USR_TARBALL} -C #{target}") {system cmd}
      # App
      FileUtils.rm_rf(APP_TGT) if Dir.exist?(APP_TGT)    
      FileUtils.cp_r(TMP_SUBL_APP, APP_TGT)
