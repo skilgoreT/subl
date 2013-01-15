@@ -28,10 +28,10 @@ In the event that you add new packages or keybindings the push recipe will tar u
 ```
 ## Keybindings
 
-First Header | Second Header
------------- | -------------
-Content Cell | Content Cell
-Content Cell | Content Cell
+Keybinding   | Command       | Keybinding    | Command           
+------------ | ------------- | ------------  | ----------------  
+super+d      | Select word   | super+i       | toggle overwrite  
+super+l      | Select line   | cntrl+shift+w | close all tabs    
 
 ## Authors
 
