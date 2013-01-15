@@ -4,11 +4,12 @@ The subl repo contains a chef-solo based installer for Sublime Text 2. This is f
 
 ## Installation 
 The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c solo.rb -j install.json' from the kitchen directory
+
 ```
 > sudo ./install.rb
 ```
 ## Installation 
-#Packages
+# Packages
 * PackageControl
 * Alignment
 * AdvancedNewFile
@@ -20,12 +21,17 @@ The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c so
 
 ## Push
 In the event that you add new packages or keybindings the push recipe will tar up the current state of sublime on either platform and push it to github
+
 ```
 > # from the kitchen directory
 > chef 'chef-solo -c solo.rb -j push.json'
 ```
 ## Keybindings
 
+First Header | Second Header
+------------ | -------------
+Content Cell | Content Cell
+Content Cell | Content Cell
 
 ## Authors
 
