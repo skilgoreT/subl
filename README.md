@@ -5,6 +5,10 @@ The subl repo contains a chef-solo based installer for Sublime Text 2. This is f
 ## Bootstrap
 The bootstrap script assumes you have a system ruby (>1.8.7) and will install rvm (Ruby Version Manager) if it is not already present to upgrade you to the latest ruby for your system.  Bootstrap also install rubygems from source and the chef gem.  This script only need be run once or not at all if you have working version of ruby >1.9. (buyer beware)
 
+```
+> ./bootstrap.rb
+```
+
 ## Installation 
 The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c solo.rb -j install.json' from the kitchen directory
 
