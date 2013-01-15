@@ -3,7 +3,7 @@
 The subl repo contains a chef-solo based installer for Sublime Text 2. This is for sharing my own personal module and keybinding preferences between OSX and ubuntu desktops.
 
 ## Bootstrap
-The bootstrap script assumes you have a system ruby (>1.8.7) and will install rvm (Ruby Version Manager) if it is not already present to upgrade you to the latest ruby for your system.  Bootstrap also install rubygems from source and the chef gem.  This script only need be run once or not at all if you have working version of ruby >1.9. (buyer beware)
+The bootstrap script assumes you have a system ruby (>1.8.7) and will installs rvm (Ruby Version Manager) if it is not already present to upgrade you to the latest ruby for your system.  Bootstrap also install rubygems from source and the chef gem.  This script only need be run once or not at all if you have working version of ruby >1.9. (buyer beware)
 
 ```
 > ./bootstrap.rb
@@ -37,10 +37,11 @@ In the event that you add new packages or keybindings the push recipe will tar u
 
 OSX and linux keybindings are shared.  The keybindings are linux defaults with overrides largely definded by sublemacspro (i.e. very emacs like).  User overrides are tabulated below. 
 
-Keybinding   | Command       | Keybinding    | Command           
------------- | ------------- | ------------  | ----------------  
-super+d      | Select word   | super+i       | toggle overwrite  
-super+l      | Select line   | cntrl+shift+w | close all tabs    
+Keybinding    | Command       | Keybinding    | Command           
+------------  | ------------- | ------------  | ----------------  
+super+d       | Select word   | super+i       | toggle overwrite  
+super+l       | Select line   | cntrl+shift+w | close all tabs    
+super+shift+b | Bash shell    | super+shift+r | ruby interpreter shell
 
 ## Authors
 
