@@ -28,6 +28,8 @@ In the event that you add new packages or keybindings the push recipe will tar u
 ```
 ## Keybindings
 
+OSX and linux keybindings are shared.  The keybindings are linux defaults with overrides largely definded by sublemacspro (i.e. very emacs like).  User overrides are tabulated below. 
+
 Keybinding   | Command       | Keybinding    | Command           
 ------------ | ------------- | ------------  | ----------------  
 super+d      | Select word   | super+i       | toggle overwrite  
