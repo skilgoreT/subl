@@ -1,7 +1,12 @@
 #!/usr/bin/env ruby
+
 # Is RVM installed ?
 
-#raise 'Must run as root' unless Process.uid == 0
+
+unless `which rvm`
+  puts 'Installing rvm (Ruby Version Manager)'
+  puts `\curl -L https://get.rvm.io | bash -s stable --ruby`
+end
 
 def is_gem_installed dep
   require 'rubygems'
