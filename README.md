@@ -25,6 +25,7 @@ The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c so
 * StackOverflowSearch
 * ActionScript3
 * sublemacspro
+* Vagrant
 
 ## Push
 In the event that you add new packages or keybindings the push recipe will tar up the current state of sublime on either platform and push it to github
@@ -42,6 +43,12 @@ Keybinding    | Command       | Keybinding    | Command
 super+d       | Select word   | super+i       | toggle overwrite  
 super+l       | Select line   | cntrl+shift+w | close all tabs    
 super+shift+b | Bash shell    | super+shift+r | ruby interpreter shell
+
+OSX Specific
+
+Keybinding    | Command       
+------------  | -------------  
+super+shift+. | toggle hidden  
 
 ## Authors
 
