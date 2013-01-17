@@ -1,21 +1,17 @@
 #!/usr/bin/env ruby
 
-# Is RVM installed ?
+require 'rubygems'
 
-
-unless `which rvm`
-  puts 'Installing rvm (Ruby Version Manager)'
-  puts `\curl -L https://get.rvm.io | bash -s stable --ruby`
+def which?(name)
+  `which #{name}`
+  $?.success?
 end
 
-def is_gem_installed dep
-  require 'rubygems'
-  begin
-    Gem::Specification.find_by_name(dep)
-    true
-  rescue Gem::LoadError 
-    false
-  end
+unless which?('rvm')
+  puts 'please install RVM before running bootstrap'
+else  
+  require 'rvm'
+  RVM::use('default')
 end
 
 def install_ruby_gems_from_source
@@ -31,15 +27,21 @@ def install_ruby_gems_from_source
     Dir.chdir(current)
   end
 end
+install_ruby_gems_from_source 
 
-if is_gem_installed('rvm')
-  'rvm installed using system ruby'
-  require 'rvm'
-  RVM::use('system')
+def is_gem_installed dep
+  require 'rubygems'
+  begin
+    Gem::Specification.find_by_name(dep)
+    true
+  rescue Gem::LoadError 
+      false
+  end
 end
 
-unless is_gem_installed('chef')
-  install_ruby_gems_from_source 
+
+
+unless is_gem_installed('chef')  
   puts 'installing chef'
   puts `gem install chef --no-ri --no-rdoc` 
 end
