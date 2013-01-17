@@ -6,14 +6,13 @@ The subl repo contains a chef-solo based installer for Sublime Text 2. This is f
 
 ```
 $ \curl -L https://get.rvm.io | bash -s stable --ruby
-
 ```
 ## Bootstrap chef
 
 Bootstrap installs rubygems from source and the chef gem.  This script only need be run once to configure ruby and chef appropriately. 
 
 ```
-> ./bootstrap.r
+> ./bootstrap.rb
 ```
 ## Installation 
 The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c solo.rb -j install.json' from the kitchen directory
