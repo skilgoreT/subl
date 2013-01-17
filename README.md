@@ -54,8 +54,8 @@ super+shift+b | Bash shell    | super+shift+r | ruby interpreter shell
 OSX Specific
 
 Keybinding    | Command       
-------------  | -------------  
-super+shift+. | toggle hidden  
+------------  | -------------------  
+super+shift+. | toggle hidden files 
 
 ## Authors
 
