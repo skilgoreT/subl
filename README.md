@@ -1,15 +1,26 @@
 ## subl 
 
-The subl repo contains a chef-solo based installer for Sublime Text 2. This is for sharing my own personal module and keybinding preferences between OSX and ubuntu desktops.  The installed modules and keybindings are shared between linux and OSX therefor updates can be made on either platfrom and then shared by pushing back up to github.
+The subl repo contains a chef-solo based installer for Sublime Text 2. This is for sharing my own personal module and keybinding preferences between OSX and ubuntu desktops.  Updates can be made on either platfrom and then shared by pushing back up to github.
 
-## Bootstrap
-The bootstrap script assumes you have a system ruby (>1.8.7) and will installs rvm (Ruby Version Manager) if it is not already present to upgrade you to the latest ruby for your system.  Bootstrap also install rubygems from source and the chef gem.  This script only need be run once to configure rvm, ruby and chef appropriately. 
+## Recovering Emacs Users
+I have used emacs for the past 15 years, rectangle edits, kbd macros, snippets, TAGS you name it.  This editor has all those and more and its alot faster.  The sublemacspro package gets you most of the standard emacs keybindings but its worth checking out a few of the videos at the URL below to understand how to use multi-select and some other power features that will be new to emacs cognescenti. 
+
+[Sublime Text Video Tutorials](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/)
+ 
+
+## Install Ruby Version Manager
 
 ```
-> ./bootstrap.r
+$ \curl -L https://get.rvm.io | bash -s stable --ruby
+```
+## Bootstrap chef
+
+Bootstrap installs rubygems from source and the chef gem.  This script only need be run once to configure ruby and chef appropriately. 
+
+```
+> ./bootstrap.rb
 ```
 ## Installation 
-
 The installer will bootstrap chef-solo if necessary and the run 'chef-solo -c solo.rb -j install.json' from the kitchen directory
 
 ```
@@ -20,7 +31,6 @@ Note the message below message is a harmless bug in the current ohai gem and can
 ```
 sh: 1: Permission denied"
 ```
-
 
 ## Installation 
 # Packages
