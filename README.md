@@ -68,6 +68,14 @@ Keybinding    | Command
 ------------  | -------------------  
 super+shift+. | toggle hidden files 
 
+## Userful commands
+Open the command menu with super+shift+p
+
+Package             | Command       
+------------        | -------------------  
+Project             | Add Folder
+Markdown            | Preview in Browser
+
 ## Authors
 
 * Sean Kelly sean.alexander.kelly@gmail.com
