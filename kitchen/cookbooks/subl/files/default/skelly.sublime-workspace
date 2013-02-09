@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"m",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"Ma",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"a",
+				"Project: Add Folder"
+			],
+			[
+				"ma",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"Mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 494.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/seakelly/dev/service/services/voting/dingo.yaml",
+		"/Users/seakelly/dev/service/services/clustermaster/dingo.yaml",
+		"/Users/seakelly/dev/service/clusters/updates/vlm1/voting.rb",
+		"/Users/seakelly/dev/subl/README.md",
+		"/Users/seakelly/dev/dingo/vagrant/Vagrantfile",
+		"/Users/seakelly/dev/dingo/vagrant/cookbooks/rvm/recipes/default.rb",
+		"/Users/seakelly/dev/dingo/example/README.md",
+		"/Users/seakelly/dev/dingo/templates/config.ru.erb",
+		"/Users/seakelly/dev/dingo/lib/dingo/commands/create_gem.rb",
+		"/Users/seakelly/dev/dingo/templates/module.erb",
+		"/Users/seakelly/dev/dingo/templates/version.erb",
+		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/config.ru",
+		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/lib/dingo_test_sinatra.rb",
+		"/Users/seakelly/dev/dingo/templates/sinatra.erb",
+		"/Users/seakelly/dev/dingo/lib/dingo.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/bootstrap.rb",
+		"/Users/seakelly/dev/dingo/vagrant/bootstrap.rb",
+		"/Users/seakelly/dev/dingo/templates/config.ru",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/dingo.yaml",
+		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/lib/dingo_test_sinatra/version.rb",
+		"/Users/seakelly/dev/dingo/templates/dingo.erb",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/sample.md",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Darin:Johannes",
+		"/Users/seakelly/.bashrc",
+		"/Users/seakelly/dev/subl/kitchen/cookbooks/subl/recipes/install.rb",
+		"/Users/seakelly/dev/subl/bootstrap.rb",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/seakelly/dev/subl/install.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Command",
+			"rvm_use",
+			"ivy",
+			"vagrant",
+			"README",
+			"\n[",
+			"rvm",
+			"puppet",
+			"hot",
+			"puppet",
+			"Puppet",
+			"puppet",
+			"Puppet",
+			"Paginated",
+			"the",
+			"The",
+			"the",
+			"The",
+			"the",
+			"The",
+			"the",
+			"The",
+			"bash_setup",
+			"provision",
+			"debug",
+			"toggle",
+			"keys",
+			"\n{",
+			"alt+l",
+			"SublimeREPL",
+			"app",
+			"FileUtils",
+			"usr_tgt",
+			"app_tgt",
+			"usr_dir",
+			"subl",
+			"Subl",
+			"app_dir",
+			"tarball",
+			"Subl",
+			"tar_dir",
+			"ctrl+D",
+			"find_",
+			"ctrl+D",
+			"Packages",
+			"cmd",
+			"Dir",
+			"\n`",
+			"close"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"File",
+			"tar_dir"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dingo_test_gem.rb",
+				"dingo_test_gem/lib/dingo_test_gem.rb"
+			],
+			[
+				"ding_test_sin",
+				"dingo_test_sinatra/dingo_test_sinatra.gemspec"
+			],
+			[
+				"voting/gem",
+				"service/services/voting/voting.gemspec"
+			],
+			[
+				"gemspec",
+				"dingo/templates/gemspec.erb"
+			],
+			[
+				"rvm_ut",
+				"dingo/lib/dingo/rvm_util.rb"
+			],
+			[
+				"sinatra",
+				"dingo/templates/sinatra.erb"
+			],
+			[
+				"readme",
+				"dingo/example/README.md"
+			],
+			[
+				"create_",
+				"dingo/test/unit/create_sample_projects.rb"
+			],
+			[
+				"dingo",
+				"service/gems/cws_api/dingo.yaml"
+			],
+			[
+				"voting/versi",
+				"service/services/voting/lib/voting/version.rb"
+			],
+			[
+				"collection/ver",
+				"service/services/collection/lib/collection/version.rb"
+			],
+			[
+				"voting/din",
+				"service/services/voting/dingo.yaml"
+			],
+			[
+				"version.",
+				"dingo/templates/version.erb"
+			],
+			[
+				"disneydb_exerciser/ver",
+				"service/services/disneydb_exerciser/lib/disneydb_exerciser/version.rb"
+			],
+			[
+				"voting/vers",
+				"service/services/voting/lib/voting/version.rb"
+			],
+			[
+				"disneydb_exe",
+				"service/services/disneydb_exerciser/Gemfile.bu"
+			],
+			[
+				"ding",
+				"service/gems/cws_api/dingo.yaml"
+			],
+			[
+				"disneydb_exerciser/gem",
+				"service/services/disneydb_exerciser/Gemfile.bu"
+			],
+			[
+				"disneydb_ex",
+				"service/services/disneydb_exerciser/dingo.yaml"
+			],
+			[
+				"collection/gem",
+				"service/services/collection/Gemfile.bu"
+			],
+			[
+				"collection/dingo.yaml",
+				"service/services/collection/dingo.yaml"
+			],
+			[
+				"voting/ding",
+				"service/services/voting/dingo.yaml"
+			],
+			[
+				"clustermaster/din",
+				"service/services/clustermaster/dingo.yaml"
+			],
+			[
+				"clustermaster/ge",
+				"service/services/clustermaster/Gemfile.bu"
+			],
+			[
+				"clustermaster/gem",
+				"service/services/clustermaster/Gemfile.bu"
+			],
+			[
+				"clustermaster.gemspec",
+				"service/services/clustermaster/clustermaster.gemspec"
+			],
+			[
+				"clustermaster.gem",
+				"service/services/clustermaster/clustermaster.gemspec.bu"
+			],
+			[
+				"clustermaster/version.",
+				"service/services/clustermaster/lib/clustermaster/version.rb.bu"
+			],
+			[
+				"clustermaster/dingo.yaml",
+				"service/services/clustermaster/dingo.yaml"
+			],
+			[
+				"clustermaster/ver",
+				"service/services/clustermaster/lib/clustermaster/version.rb"
+			],
+			[
+				"clustermaster",
+				"service/services/clustermaster/lib/clustermaster.rb"
+			],
+			[
+				"subl/rea",
+				"subl/README.md"
+			],
+			[
+				"voting",
+				"service/clusters/updates/vlm1/voting.rb"
+			],
+			[
+				"shot",
+				"commands/shotgun.rb"
+			],
+			[
+				"util.",
+				"util.rb"
+			],
+			[
+				"uti",
+				"rvm_util.rb"
+			],
+			[
+				"build.rb",
+				"commands/build.rb"
+			],
+			[
+				"clea",
+				"commands/real_clean.rb"
+			],
+			[
+				"build",
+				"commands/build.rb"
+			],
+			[
+				"create",
+				"test_create_gem.rb"
+			],
+			[
+				"services/voting/din",
+				"services/voting/dingo.yaml"
+			],
+			[
+				"bash",
+				"vagrant/cookbooks/desktop_setup/files/default/bash_profile"
+			],
+			[
+				"vagran",
+				"vagrant/Vagrantfile"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"vagr",
+				"vagrant/Vagrantfile"
+			],
+			[
+				"example/din",
+				"example/dingo_test_sinatra/lib/dingo_test_sinatra.rb"
+			],
+			[
+				"reci",
+				"vagrant/cookbooks/dingo/recipes/default.rb"
+			],
+			[
+				"exam",
+				"example/README.md"
+			],
+			[
+				"inst",
+				"kitchen/cookbooks/subl/recipes/install.rb"
+			],
+			[
+				"def",
+				"kitchen/cookbooks/subl/recipes/default.rb"
+			],
+			[
+				"create_ge",
+				"lib/dingo/commands/create_gem.rb"
+			],
+			[
+				"sin",
+				"templates/sinatra.erb"
+			],
+			[
+				"dingo/def",
+				"vagrant/cookbooks/dingo/recipes/default.rb"
+			],
+			[
+				"rvm/def",
+				"vagrant/cookbooks/rvm/recipes/default.rb"
+			],
+			[
+				"rvm/de",
+				"cookbooks/rvm/recipes/default.rb"
+			],
+			[
+				"defa",
+				"cookbooks/rvm/recipes/default.rb"
+			],
+			[
+				"rvm/default",
+				"cookbooks/rvm/recipes/default.rb"
+			],
+			[
+				"rvm/",
+				"cookbooks/rvm/recipes/default.rb"
+			],
+			[
+				"",
+				"cookbooks/apache2/metadata.rb"
+			],
+			[
+				"va",
+				"vagrant/Vagrantfile"
+			],
+			[
+				"vag",
+				"vagrant/Vagrantfile"
+			],
+			[
+				"dingo_test_",
+				"example/dingo_test_sinatra/lib/dingo_test_sinatra.rb"
+			],
+			[
+				"con",
+				"example/dingo_test_sinatra/config.ru"
+			],
+			[
+				"vers",
+				"templates/version.erb"
+			],
+			[
+				"mod",
+				"templates/module.erb"
+			],
+			[
+				"config.ru.erb",
+				"templates/config.ru.erb"
+			],
+			[
+				"module.rb",
+				"templates/module.erb"
+			],
+			[
+				"dingo.erb",
+				"templates/dingo.erb"
+			],
+			[
+				"confi",
+				"example/dingo_test_sinatra/config.ru"
+			],
+			[
+				"dingo_test_si",
+				"example/dingo_test_sinatra/lib/dingo_test_sinatra.rb"
+			],
+			[
+				"template/mo",
+				"templates/module.erb"
+			],
+			[
+				"boot",
+				"lib/dingo/bootstrap.rb"
+			],
+			[
+				"dingo.rb",
+				"lib/dingo.rb"
+			],
+			[
+				"bash_pro",
+				"cookbooks/bash_setup/files/default/bash_profile"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				".bashrc",
+				".bashrc"
+			],
+			[
+				"boo",
+				"bootstrap.rb"
+			],
+			[
+				"instal",
+				"kitchen/cookbooks/subl/recipes/install.rb"
+			],
+			[
+				"install",
+				"kitchen/cookbooks/subl/recipes/install.rb"
+			],
+			[
+				"push",
+				"kitchen/cookbooks/subl/recipes/push.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
