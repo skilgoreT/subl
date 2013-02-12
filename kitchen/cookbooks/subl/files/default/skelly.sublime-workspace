@@ -5,9 +5,6 @@
 		[
 		]
 	},
-	"buffers":
-	[
-	],
 	"build_system": "",
 	"command_palette":
 	{
@@ -63,7 +60,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -80,6 +77,24 @@
 	},
 	"file_history":
 	[
+		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout/log_util.rb",
+		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout.rb",
+		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout/ItemRecommender.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/commands/build.rb",
+		"/Users/seakelly/dev/dingo/log_util.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/util.rb",
+		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/log_util.rb",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/seakelly/dev/woot_ml/woot_mahout/dingo.yaml",
+		"/Users/seakelly/dev/dingo/bin/dingo",
+		"/Users/seakelly/dev/dingo/example/ffsf/dingo_test_sinatra/dingo.yaml",
+		"/Users/seakelly/dev/kerpoof/eng/java/lib/util/src/kerpoof/util/LogUtil.java",
+		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/post_preferences.csv",
+		"/Users/seakelly/dev/dingo/vagrant/cookbooks/dingo/recipes/default.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/cli.rb",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/seakelly/dev/service/services/voting/dingo.yaml",
 		"/Users/seakelly/dev/service/services/clustermaster/dingo.yaml",
 		"/Users/seakelly/dev/service/clusters/updates/vlm1/voting.rb",
@@ -98,18 +113,14 @@
 		"/Users/seakelly/dev/dingo/lib/dingo/bootstrap.rb",
 		"/Users/seakelly/dev/dingo/vagrant/bootstrap.rb",
 		"/Users/seakelly/dev/dingo/templates/config.ru",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/dingo.yaml",
 		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/lib/dingo_test_sinatra/version.rb",
 		"/Users/seakelly/dev/dingo/templates/dingo.erb",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/sample.md",
 		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Darin:Johannes",
 		"/Users/seakelly/.bashrc",
 		"/Users/seakelly/dev/subl/kitchen/cookbooks/subl/recipes/install.rb",
 		"/Users/seakelly/dev/subl/bootstrap.rb",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/seakelly/dev/subl/install.rb"
 	],
 	"find":
@@ -121,6 +132,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -128,6 +140,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"LOG4J",
+			"info",
+			"cycle",
+			"next",
+			"window",
+			"next",
+			"tab",
 			"Command",
 			"rvm_use",
 			"ivy",
@@ -184,6 +203,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'\n",
 			"File",
 			"tar_dir"
 		],
@@ -193,14 +213,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 34.0
@@ -243,6 +255,66 @@
 		"selected_items":
 		[
 			[
+				"log_",
+				"woot_ml/woot_mahout/lib/woot_mahout/log_util.rb"
+			],
+			[
+				"woot_ma",
+				"woot_ml/woot_mahout/lib/woot_mahout.rb"
+			],
+			[
+				"item_",
+				"woot_ml/woot_mahout/lib/woot_mahout/item_recommender.rb"
+			],
+			[
+				"woot_m",
+				"woot_ml/woot_mahout/lib/woot_mahout.rb"
+			],
+			[
+				"log_ut",
+				"woot_ml/woot_mahout/lib/woot_mahout/log_util.rb"
+			],
+			[
+				"util",
+				"dingo/lib/dingo/util.rb"
+			],
+			[
+				"log",
+				"dingo/log_util.rb"
+			],
+			[
+				"build.r",
+				"dingo/lib/dingo/commands/build.rb"
+			],
+			[
+				"woot",
+				"woot_ml/woot_mahout/lib/woot_mahout.rb"
+			],
+			[
+				"dingo",
+				"woot_ml/woot_mahout/dingo.yaml"
+			],
+			[
+				"build",
+				"dingo/lib/dingo/commands/build.rb"
+			],
+			[
+				"cli.rb",
+				"dingo/lib/dingo/cli.rb"
+			],
+			[
+				"build.",
+				"dingo/lib/dingo/commands/build.rb"
+			],
+			[
+				"dingo.ya",
+				"dingo/example/ffsf/dingo_test_sinatra/dingo.yaml"
+			],
+			[
+				"dingo.y",
+				"woot_ml/woot_mahout/dingo.yaml"
+			],
+			[
 				"dingo_test_gem.rb",
 				"dingo_test_gem/lib/dingo_test_gem.rb"
 			],
@@ -273,10 +345,6 @@
 			[
 				"create_",
 				"dingo/test/unit/create_sample_projects.rb"
-			],
-			[
-				"dingo",
-				"service/gems/cws_api/dingo.yaml"
 			],
 			[
 				"voting/versi",
@@ -393,10 +461,6 @@
 			[
 				"clea",
 				"commands/real_clean.rb"
-			],
-			[
-				"build",
-				"commands/build.rb"
 			],
 			[
 				"create",
@@ -577,6 +641,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 423.0,
 	"status_bar_visible": true
 }
