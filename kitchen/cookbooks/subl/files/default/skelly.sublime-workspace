@@ -8,15 +8,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 127.0,
 		"selected_items":
 		[
 			[
-				"ad",
+				"add",
 				"Project: Add Folder"
 			],
 			[
-				"add",
+				"ad",
 				"Project: Add Folder"
 			],
 			[
