@@ -3,17 +3,37 @@
 	{
 		"selected_items":
 		[
+			[
+				"apt",
+				"apt_repository"
+			],
+			[
+				"add",
+				"add-10gen-repo"
+			]
 		]
 	},
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 87.0,
 		"selected_items":
 		[
 			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
 				"add",
 				"Project: Add Folder"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"Mar",
+				"Set Syntax: Markdown"
 			],
 			[
 				"ad",
@@ -44,10 +64,6 @@
 				"Markdown Preview: open Markdown Cheat sheet"
 			],
 			[
-				"mark",
-				"Markdown Preview: preview in Browser"
-			],
-			[
 				"Mark",
 				"Markdown Preview: preview in Browser"
 			],
@@ -60,7 +76,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -77,12 +93,29 @@
 	},
 	"file_history":
 	[
+		"/Users/seakelly/dev/wrangle/lib/wrangle/commands/build.rb",
+		"/Users/seakelly/.bash_profile",
+		"/Users/seakelly/dev/wrangle/lib/wrangle/parser.rb",
+		"/Users/seakelly/dev/wrangle/lib/wrangle/commands/common_options.rb",
+		"/Users/seakelly/dev/wrangle/lib/wrangle/util.rb",
+		"/Users/seakelly/dev/wrangle/lib/wrangle/wrangle_project.rb",
+		"/Users/seakelly/dev/wrangle/lib/wrangle/wrangle_file.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/dependency_graph.rb",
+		"/Users/seakelly/dev/wrangle/lib/wrangle/error.rb",
+		"/Users/seakelly/dev/wrangle/lib/wrangle/cli.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/commands/build.rb",
+		"/Users/seakelly/dev/woot_ml/gems/woot_mahout/lib/woot_mahout.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/rvm_util.rb",
+		"/Users/seakelly/dev/dingo/lib/dingo/util.rb",
+		"/Users/seakelly/dev/service/gems/cws_api/lib/cws_api/factory.rb",
+		"/Users/seakelly/dev/service/kitchen/cookbooks/installer/recipes/mongoinstaller.rb",
+		"/Users/seakelly/dev/dingo/vagrant/Vagrantfile",
+		"/Users/seakelly/dev/dingo/vagrant/cookbooks/mongo_db/recipes/default.rb",
+		"/Users/seakelly/dev/woot_ml/services/woot_recommend/dingo.yaml",
 		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout/log_util.rb",
 		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout.rb",
 		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout/ItemRecommender.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/commands/build.rb",
 		"/Users/seakelly/dev/dingo/log_util.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/util.rb",
 		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/log_util.rb",
 		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/seakelly/dev/woot_ml/woot_mahout/dingo.yaml",
@@ -99,7 +132,6 @@
 		"/Users/seakelly/dev/service/services/clustermaster/dingo.yaml",
 		"/Users/seakelly/dev/service/clusters/updates/vlm1/voting.rb",
 		"/Users/seakelly/dev/subl/README.md",
-		"/Users/seakelly/dev/dingo/vagrant/Vagrantfile",
 		"/Users/seakelly/dev/dingo/vagrant/cookbooks/rvm/recipes/default.rb",
 		"/Users/seakelly/dev/dingo/example/README.md",
 		"/Users/seakelly/dev/dingo/templates/config.ru.erb",
@@ -140,6 +172,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"side",
+			"sidebar",
+			"parse",
+			"status_code",
+			"glob",
+			"faraday",
+			"dingo",
+			"camel",
+			"gemspec",
+			"get_name_from",
+			"glob",
+			"get_name_from",
+			"name",
+			"all",
+			"log",
+			"with_logging",
+			"faraday",
+			"versbose",
+			"contract",
+			"faraday",
+			"contract",
+			"Mixins",
+			"Public",
+			"class",
+			"with_log",
+			"execute",
+			"generate_method",
+			"cws_",
+			"gem",
+			"version",
+			"full_name",
+			"vertex_from",
+			"full",
 			"LOG4J",
 			"info",
 			"cycle",
@@ -203,6 +268,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"wrangle",
+			"rvm",
 			"'\n",
 			"File",
 			"tar_dir"
@@ -246,7 +313,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -254,6 +321,282 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"readmor",
+				"dingo/READMORE.md"
+			],
+			[
+				"readme.md",
+				"dingo/README.md"
+			],
+			[
+				"readmo",
+				"dingo/READMORE.md"
+			],
+			[
+				"read",
+				"dingo/README.md"
+			],
+			[
+				"reame",
+				"dingo/README.md"
+			],
+			[
+				"readme",
+				"dingo/example/README.md"
+			],
+			[
+				"rea",
+				"dingo/README.md"
+			],
+			[
+				"",
+				"dingo/READMORE.md"
+			],
+			[
+				"wuti",
+				"wrangle/lib/wrangle/util.rb"
+			],
+			[
+				"wbuil",
+				"wrangle/lib/wrangle/commands/build.rb"
+			],
+			[
+				"err",
+				"wrangle/lib/wrangle/error.rb"
+			],
+			[
+				"werr",
+				"wrangle/lib/wrangle/error.rb"
+			],
+			[
+				"dependen",
+				"dingo/lib/dingo/dependency_graph.rb"
+			],
+			[
+				"wrangel_pro",
+				"wrangle/lib/wrangle/wrangle_project.rb"
+			],
+			[
+				"wrangle_pr",
+				"wrangle/lib/wrangle/wrangle_project.rb"
+			],
+			[
+				".bash_pr",
+				"/Users/seakelly/.bash_profile"
+			],
+			[
+				"wrangle_pro",
+				"wrangle/lib/wrangle/wrangle_project.rb"
+			],
+			[
+				"wrangerr",
+				"wrangle/lib/wrangle/error.rb"
+			],
+			[
+				"build.r",
+				"wrangle/lib/wrangle/commands/build.rb"
+			],
+			[
+				"wranglecli",
+				"wrangle/lib/wrangle/cli.rb"
+			],
+			[
+				"util",
+				"wrangle/lib/wrangle/util.rb"
+			],
+			[
+				"wranglebuild",
+				"wrangle/lib/wrangle/commands/build.rb"
+			],
+			[
+				"wrangleuti",
+				"wrangle/lib/wrangle/util.rb"
+			],
+			[
+				"dingo/build",
+				"dingo/lib/dingo/commands/build.rb"
+			],
+			[
+				"dingo/depe",
+				"dingo/lib/dingo/dependency_graph.rb"
+			],
+			[
+				"wrangle",
+				"wrangle/lib/wrangle.rb"
+			],
+			[
+				"woot_rever",
+				"woot_ml/services/woot_recommend/lib/woot_recommend/version.rb"
+			],
+			[
+				"fac",
+				"woot_ml/services/woot_recommend/lib/woot_recommend/factory.rb"
+			],
+			[
+				"woot_re",
+				"woot_ml/services/woot_recommend/lib/woot_recommend.rb"
+			],
+			[
+				"util.rb",
+				"dingo/lib/dingo/util.rb"
+			],
+			[
+				"shot",
+				"dingo/lib/dingo/commands/shotgun.rb"
+			],
+			[
+				"rvm",
+				"dingo/lib/dingo/rvm_util.rb"
+			],
+			[
+				"woot_api/fa",
+				"woot_ml/gems/woot_api/lib/woot_api/factory.rb"
+			],
+			[
+				"woot_api",
+				"woot_ml/gems/woot_api/lib/woot_api.rb"
+			],
+			[
+				"woot_refa",
+				"woot_ml/services/woot_recommend/lib/woot_recommend/factory.rb"
+			],
+			[
+				"woot_apibas",
+				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
+			],
+			[
+				"woot_util",
+				"woot_ml/gems/woot_util/woot_util.gemspec"
+			],
+			[
+				"mongo_db",
+				"dingo/vagrant/cookbooks/mongo_db/recipes/default.rb"
+			],
+			[
+				"mongo_db/",
+				"dingo/vagrant/cookbooks/mongo_db/recipes/default.rb"
+			],
+			[
+				"mongoin",
+				"service/kitchen/cookbooks/installer/recipes/mongoinstaller.rb"
+			],
+			[
+				"woot_rec",
+				"woot_ml/services/woot_recommend/woot_recommend.gemspec"
+			],
+			[
+				"woot_recom",
+				"woot_ml/services/woot_recommend/lib/woot_recommend.rb"
+			],
+			[
+				"wootbase",
+				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
+			],
+			[
+				"woot_recomser",
+				"woot_ml/services/woot_recommend/lib/woot_recommend/service.rb"
+			],
+			[
+				"woot_recommend/fa",
+				"woot_ml/services/woot_recommend/lib/woot_recommend/factory.rb"
+			],
+			[
+				"woot_reco/fa",
+				"woot_ml/services/woot_reco/lib/woot_reco/factory.rb"
+			],
+			[
+				"voting/fac",
+				"service/services/voting/lib/voting/factory.rb"
+			],
+			[
+				"woot_reco",
+				"woot_ml/services/woot_reco/lib/woot_reco.rb"
+			],
+			[
+				"base",
+				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
+			],
+			[
+				".git",
+				"woot_ml/.gitignore"
+			],
+			[
+				"woot_api/base",
+				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
+			],
+			[
+				"boot",
+				"subl/bootstrap.rb"
+			],
+			[
+				"build.rb",
+				"dingo/lib/dingo/commands/build.rb"
+			],
+			[
+				"rename.rb",
+				"dingo/vagrant/cookbooks/bash_setup/files/default/bin/rename.rb"
+			],
+			[
+				"dingo",
+				"dingo/bin/dingo"
+			],
+			[
+				"dingoutil",
+				"dingo/lib/dingo/util.rb"
+			],
+			[
+				"factory.r",
+				"service/gems/cws_api/lib/cws_api/factory.rb"
+			],
+			[
+				"voting",
+				"service/services/voting/lib/voting.rb"
+			],
+			[
+				"item_rec",
+				"woot_ml/woot_mahout/lib/woot_mahout/item_recommender.rb"
+			],
+			[
+				"woot_",
+				"woot_ml/woot_mahout/lib/woot_mahout.rb"
+			],
+			[
+				"dingo/def",
+				"dingo/vagrant/cookbooks/dingo/recipes/default.rb"
+			],
+			[
+				"bin/di",
+				"dingo/bin/dingo"
+			],
+			[
+				"readmore",
+				"dingo/READMORE.md"
+			],
+			[
+				"dep",
+				"dingo/lib/dingo/dependency_graph.rb"
+			],
+			[
+				"build.b",
+				"dingo/lib/dingo/commands/build.rb"
+			],
+			[
+				"dingo_test_gem",
+				"dingo/example/ffsf/dingo_test_gem/lib/dingo_test_gem.rb"
+			],
+			[
+				"dependencygraph",
+				"dingo/lib/dingo/dependency_graph.rb"
+			],
+			[
+				"readm",
+				"dingo/README.md"
+			],
+			[
+				"build",
+				"dingo/lib/dingo/commands/build.rb"
+			],
 			[
 				"log_",
 				"woot_ml/woot_mahout/lib/woot_mahout/log_util.rb"
@@ -275,28 +618,12 @@
 				"woot_ml/woot_mahout/lib/woot_mahout/log_util.rb"
 			],
 			[
-				"util",
-				"dingo/lib/dingo/util.rb"
-			],
-			[
 				"log",
 				"dingo/log_util.rb"
 			],
 			[
-				"build.r",
-				"dingo/lib/dingo/commands/build.rb"
-			],
-			[
 				"woot",
 				"woot_ml/woot_mahout/lib/woot_mahout.rb"
-			],
-			[
-				"dingo",
-				"woot_ml/woot_mahout/dingo.yaml"
-			],
-			[
-				"build",
-				"dingo/lib/dingo/commands/build.rb"
 			],
 			[
 				"cli.rb",
@@ -337,10 +664,6 @@
 			[
 				"sinatra",
 				"dingo/templates/sinatra.erb"
-			],
-			[
-				"readme",
-				"dingo/example/README.md"
 			],
 			[
 				"create_",
@@ -439,24 +762,12 @@
 				"subl/README.md"
 			],
 			[
-				"voting",
-				"service/clusters/updates/vlm1/voting.rb"
-			],
-			[
-				"shot",
-				"commands/shotgun.rb"
-			],
-			[
 				"util.",
 				"util.rb"
 			],
 			[
 				"uti",
 				"rvm_util.rb"
-			],
-			[
-				"build.rb",
-				"commands/build.rb"
 			],
 			[
 				"clea",
@@ -477,10 +788,6 @@
 			[
 				"vagran",
 				"vagrant/Vagrantfile"
-			],
-			[
-				"rea",
-				"README.md"
 			],
 			[
 				"vagr",
@@ -515,10 +822,6 @@
 				"templates/sinatra.erb"
 			],
 			[
-				"dingo/def",
-				"vagrant/cookbooks/dingo/recipes/default.rb"
-			],
-			[
 				"rvm/def",
 				"vagrant/cookbooks/rvm/recipes/default.rb"
 			],
@@ -529,102 +832,6 @@
 			[
 				"defa",
 				"cookbooks/rvm/recipes/default.rb"
-			],
-			[
-				"rvm/default",
-				"cookbooks/rvm/recipes/default.rb"
-			],
-			[
-				"rvm/",
-				"cookbooks/rvm/recipes/default.rb"
-			],
-			[
-				"",
-				"cookbooks/apache2/metadata.rb"
-			],
-			[
-				"va",
-				"vagrant/Vagrantfile"
-			],
-			[
-				"vag",
-				"vagrant/Vagrantfile"
-			],
-			[
-				"dingo_test_",
-				"example/dingo_test_sinatra/lib/dingo_test_sinatra.rb"
-			],
-			[
-				"con",
-				"example/dingo_test_sinatra/config.ru"
-			],
-			[
-				"vers",
-				"templates/version.erb"
-			],
-			[
-				"mod",
-				"templates/module.erb"
-			],
-			[
-				"config.ru.erb",
-				"templates/config.ru.erb"
-			],
-			[
-				"module.rb",
-				"templates/module.erb"
-			],
-			[
-				"dingo.erb",
-				"templates/dingo.erb"
-			],
-			[
-				"confi",
-				"example/dingo_test_sinatra/config.ru"
-			],
-			[
-				"dingo_test_si",
-				"example/dingo_test_sinatra/lib/dingo_test_sinatra.rb"
-			],
-			[
-				"template/mo",
-				"templates/module.erb"
-			],
-			[
-				"boot",
-				"lib/dingo/bootstrap.rb"
-			],
-			[
-				"dingo.rb",
-				"lib/dingo.rb"
-			],
-			[
-				"bash_pro",
-				"cookbooks/bash_setup/files/default/bash_profile"
-			],
-			[
-				"read",
-				"README.md"
-			],
-			[
-				".bashrc",
-				".bashrc"
-			],
-			[
-				"boo",
-				"bootstrap.rb"
-			],
-			[
-				"instal",
-				"kitchen/cookbooks/subl/recipes/install.rb"
-			],
-			[
-				"install",
-				"kitchen/cookbooks/subl/recipes/install.rb"
-			],
-			[
-				"push",
-				"kitchen/cookbooks/subl/recipes/push.rb"
 			]
 		],
 		"width": 0.0
@@ -641,6 +848,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 423.0,
+	"side_bar_width": 258.0,
 	"status_bar_visible": true
 }

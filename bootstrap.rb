@@ -39,11 +39,14 @@ def is_gem_installed dep
   end
 end
 
-
-
 unless is_gem_installed('chef')  
   puts 'installing chef'
   puts `gem install chef --no-ri --no-rdoc` 
+end
+
+unless is_gem_installed('ptools')  
+  puts 'installing ptools'
+  puts `gem install ptools --no-ri --no-rdoc` 
 end
 
 

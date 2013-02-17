@@ -60,7 +60,8 @@ Keybinding    | Command       | Keybinding    | Command
 super+d       | Select word   | super+i       | toggle overwrite  
 super+l       | Select line   | cntrl+shift+w | close all tabs    
 super+shift+b | Bash shell    | super+shift+r | ruby interpreter shell
-ctrl+tab      | Next tab      | 
+ctrl+tab      | Next tab      | super+m       | Maximize window
+ctrl+0        | Sidebar focus | 
 
 OSX Specific
 
