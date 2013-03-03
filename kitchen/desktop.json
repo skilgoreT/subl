@@ -1,0 +1,3 @@
+{
+	"run_list":"recipe[bash_setup::default]"
+}
