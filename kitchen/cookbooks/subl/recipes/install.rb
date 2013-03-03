@@ -46,10 +46,13 @@
      # App
      FileUtils.rm_rf(APP_TGT) if Dir.exist?(APP_TGT)    
      FileUtils.cp_r(TMP_SUBL_APP, APP_TGT)
+     BINDIR = File.join(ENV['HOME'], 'bin')
+     FileUtils.mkdir(BINDIR) unless File.exist?(BINDIR)
      FileUtils.ln_sf(APP, File.join(ENV['HOME'], "bin", "subl"))
      # Ruby support for SublimeREPL
      Subl.with_logging( cmd = "gem install pry --no-ri --no-rdoc") { system cmd }
-   end
+
+  end
  end
 
  cookbook_file TEMP_TARBALL do
