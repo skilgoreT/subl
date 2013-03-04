@@ -1,14 +1,14 @@
   require File.expand_path(File.join(File.dirname(__FILE__), 'subl'))
 
-#  template "#{ENV['HOME']}/.subl_aliases" do
-#    source "subl_aliases.erb"
-#    mode 0755
-#    owner ENV['USER']
-#    group `groups`.split(/\s/)[0]
-#    variables({
-#     :subl_project => File.expand_path(File.join(File.dirname(__FILE__), '../../subl/files/default/skelly.sublime-project'))
-#    })
-#  end
+  template "#{ENV['HOME']}/.subl_aliases" do
+    source "subl_aliases.erb"
+    mode 0755
+    owner ENV['USER']
+    group `groups`.split(/\s/)[0]
+    variables({
+     :subl_project => File.expand_path(File.join(File.dirname(__FILE__), '../../subl/files/default/skelly.sublime-project'))
+    })
+  end
   
   SUBL_TAR = "subl_2.0.1.tgz"
   SUBL_USR_TAR = "subl_usr.tgz"

@@ -16,16 +16,20 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 375.0,
 		"selected_items":
 		[
 			[
-				"insta",
-				"Package Control: Install Package"
+				"ad",
+				"Project: Add Folder"
 			],
 			[
 				"add",
 				"Project: Add Folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
 			],
 			[
 				"mark",
@@ -34,10 +38,6 @@
 			[
 				"Mar",
 				"Set Syntax: Markdown"
-			],
-			[
-				"ad",
-				"Project: Add Folder"
 			],
 			[
 				"m",
@@ -76,7 +76,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 435.0
 	},
 	"console":
 	{
@@ -321,6 +321,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"subldef",
+				"subl/kitchen/cookbooks/subl/recipes/default.rb"
+			],
 			[
 				"readmor",
 				"dingo/READMORE.md"
@@ -827,10 +831,6 @@
 			],
 			[
 				"rvm/de",
-				"cookbooks/rvm/recipes/default.rb"
-			],
-			[
-				"defa",
 				"cookbooks/rvm/recipes/default.rb"
 			]
 		],
