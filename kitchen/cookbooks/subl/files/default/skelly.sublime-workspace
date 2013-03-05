@@ -16,15 +16,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 137.0,
 		"selected_items":
 		[
 			[
-				"ad",
+				"add",
 				"Project: Add Folder"
 			],
 			[
-				"add",
+				"ad",
 				"Project: Add Folder"
 			],
 			[
@@ -172,6 +172,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"main-file",
+			"library-path",
+			"source_path",
+			"mxmlc",
+			"source_path",
 			"side",
 			"sidebar",
 			"parse",
@@ -274,7 +279,7 @@
 			"File",
 			"tar_dir"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -321,6 +326,46 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"install_",
+				"kudu/install_flex.rb"
+			],
+			[
+				"kududesk",
+				"kudu/desktop.rb"
+			],
+			[
+				"build_gem",
+				"kudu/lib/kudu/commands/build/build_gem.rb"
+			],
+			[
+				"build_ar",
+				"kudu/lib/kudu/commands/build/build_air.rb"
+			],
+			[
+				"nimbeekudu",
+				"nimbee/edu/as/app/woot_math/kudu.yaml"
+			],
+			[
+				"flex_builder.b",
+				"kudu/lib/kudu/commands/build/flex_builder.rb"
+			],
+			[
+				"main.as",
+				"kudu/example/kudu_example_swf/src/nimbee/woot_math/main.as"
+			],
+			[
+				"error.rb",
+				"kudu/lib/kudu/error.rb"
+			],
+			[
+				"gem_build",
+				"kudu/lib/kudu/commands/build/gem_builder.rb"
+			],
+			[
+				"bash_setbash_al",
+				"subl/kitchen/cookbooks/bash_setup/files/default/bash_aliases"
+			],
 			[
 				"subldef",
 				"subl/kitchen/cookbooks/subl/recipes/default.rb"
@@ -792,46 +837,6 @@
 			[
 				"vagran",
 				"vagrant/Vagrantfile"
-			],
-			[
-				"vagr",
-				"vagrant/Vagrantfile"
-			],
-			[
-				"example/din",
-				"example/dingo_test_sinatra/lib/dingo_test_sinatra.rb"
-			],
-			[
-				"reci",
-				"vagrant/cookbooks/dingo/recipes/default.rb"
-			],
-			[
-				"exam",
-				"example/README.md"
-			],
-			[
-				"inst",
-				"kitchen/cookbooks/subl/recipes/install.rb"
-			],
-			[
-				"def",
-				"kitchen/cookbooks/subl/recipes/default.rb"
-			],
-			[
-				"create_ge",
-				"lib/dingo/commands/create_gem.rb"
-			],
-			[
-				"sin",
-				"templates/sinatra.erb"
-			],
-			[
-				"rvm/def",
-				"vagrant/cookbooks/rvm/recipes/default.rb"
-			],
-			[
-				"rvm/de",
-				"cookbooks/rvm/recipes/default.rb"
 			]
 		],
 		"width": 0.0

@@ -6,6 +6,12 @@
 		},
 		{
 			"path": "/Users/skelly/dev/kudu"
+		},
+		{
+			"path": "/Users/skelly/dev/tmp"
+		},
+		{
+			"path": "/Users/skelly/dev/nimbee"
 		}
 	]
 }
