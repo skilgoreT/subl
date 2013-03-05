@@ -5,9 +5,9 @@
     mode 0755
     owner ENV['USER']
     group `groups`.split(/\s/)[0]
-    variables({
+    variables(
      :subl_project => File.expand_path(File.join(File.dirname(__FILE__), '../../subl/files/default/skelly.sublime-project'))
-    })
+    )
   end
   
   SUBL_TAR = "subl_2.0.1.tgz"
