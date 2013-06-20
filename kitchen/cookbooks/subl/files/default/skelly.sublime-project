@@ -12,6 +12,24 @@
 		},
 		{
 			"path": "/Users/skelly/dev/nimbee"
+		},
+		{
+			"path": "/Volumes/shared/pool/woot_storage/template"
+		},
+		{
+			"path": "/Users/skelly/dev/woot_graph"
+		},
+		{
+			"path": "/Users/skelly/dev/vagrant"
+		},
+		{
+			"path": "/Users/skelly/dev/woot_roster"
+		},
+		{
+			"path": "/Users/skelly/dev/nimbee_consulting"
+		},
+		{
+			"path": "/Users/skelly/dev/mines2013"
 		}
 	]
 }

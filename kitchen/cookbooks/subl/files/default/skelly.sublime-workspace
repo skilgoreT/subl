@@ -4,6 +4,90 @@
 		"selected_items":
 		[
 			[
+				"SCREE",
+				"SCREEN_V_SCALE"
+			],
+			[
+				"is",
+				"isSelected"
+			],
+			[
+				"font-w",
+				"font-weight"
+			],
+			[
+				"webkit-box",
+				"-webkit-box-shadow:   (property)"
+			],
+			[
+				"SCREEN",
+				"SCREEN_WIDTH"
+			],
+			[
+				"uint",
+				"uint"
+			],
+			[
+				"MUN",
+				"MENU_BUTTON_PADDING"
+			],
+			[
+				"MENU",
+				"MENU_BUTTON_PADDING"
+			],
+			[
+				"COLO",
+				"COLOR_CHANGED"
+			],
+			[
+				"HEAD",
+				"HEADER_LEFT_PADDING"
+			],
+			[
+				"_tile",
+				"_tile_width"
+			],
+			[
+				"ra",
+				"ROUND_RECT_RADIUS"
+			],
+			[
+				"SMALL",
+				"SMALL_BUTTON_WIDTH"
+			],
+			[
+				"BUTTO",
+				"BUTTON_BOX_PADDING"
+			],
+			[
+				"BUTTON_",
+				"TOGGLE_BUTTON_SIZE"
+			],
+			[
+				"draw_",
+				"draw_aspect_43ish"
+			],
+			[
+				"N",
+				"N_COL"
+			],
+			[
+				"NEXT",
+				"NEXT_BUTTON_WIDTH"
+			],
+			[
+				"Scree",
+				"ScreenSlidingStackTransitionManager"
+			],
+			[
+				"_na",
+				"_navigator"
+			],
+			[
+				"module",
+				"module2"
+			],
+			[
 				"apt",
 				"apt_repository"
 			],
@@ -13,10 +97,10 @@
 			]
 		]
 	},
-	"build_system": "",
+	"build_system": "Packages/User/html.sublime-build",
 	"command_palette":
 	{
-		"height": 137.0,
+		"height": 93.0,
 		"selected_items":
 		[
 			[
@@ -24,11 +108,35 @@
 				"Project: Add Folder"
 			],
 			[
-				"ad",
-				"Project: Add Folder"
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
-				"insta",
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -36,12 +144,44 @@
 				"Markdown Preview: preview in Browser"
 			],
 			[
-				"Mar",
-				"Set Syntax: Markdown"
-			],
-			[
 				"m",
 				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mak",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"Mar",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
 			],
 			[
 				"Ma",
@@ -56,10 +196,6 @@
 				"Project: Add Folder"
 			],
 			[
-				"ma",
-				"Markdown Preview: preview in Browser"
-			],
-			[
 				"mar",
 				"Markdown Preview: open Markdown Cheat sheet"
 			],
@@ -70,13 +206,9 @@
 			[
 				"install ",
 				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			]
 		],
-		"width": 435.0
+		"width": 588.0
 	},
 	"console":
 	{
@@ -88,72 +220,139 @@
 		"show_minimap": false,
 		"show_open_files": false,
 		"show_tabs": false,
-		"side_bar_visible": false,
+		"side_bar_visible": true,
 		"status_bar_visible": false
 	},
 	"file_history":
 	[
-		"/Users/seakelly/dev/wrangle/lib/wrangle/commands/build.rb",
-		"/Users/seakelly/.bash_profile",
-		"/Users/seakelly/dev/wrangle/lib/wrangle/parser.rb",
-		"/Users/seakelly/dev/wrangle/lib/wrangle/commands/common_options.rb",
-		"/Users/seakelly/dev/wrangle/lib/wrangle/util.rb",
-		"/Users/seakelly/dev/wrangle/lib/wrangle/wrangle_project.rb",
-		"/Users/seakelly/dev/wrangle/lib/wrangle/wrangle_file.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/dependency_graph.rb",
-		"/Users/seakelly/dev/wrangle/lib/wrangle/error.rb",
-		"/Users/seakelly/dev/wrangle/lib/wrangle/cli.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/commands/build.rb",
-		"/Users/seakelly/dev/woot_ml/gems/woot_mahout/lib/woot_mahout.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/rvm_util.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/util.rb",
-		"/Users/seakelly/dev/service/gems/cws_api/lib/cws_api/factory.rb",
-		"/Users/seakelly/dev/service/kitchen/cookbooks/installer/recipes/mongoinstaller.rb",
-		"/Users/seakelly/dev/dingo/vagrant/Vagrantfile",
-		"/Users/seakelly/dev/dingo/vagrant/cookbooks/mongo_db/recipes/default.rb",
-		"/Users/seakelly/dev/woot_ml/services/woot_recommend/dingo.yaml",
-		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout/log_util.rb",
-		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout.rb",
-		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/woot_mahout/ItemRecommender.rb",
-		"/Users/seakelly/dev/dingo/log_util.rb",
-		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/log_util.rb",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/seakelly/dev/woot_ml/woot_mahout/dingo.yaml",
-		"/Users/seakelly/dev/dingo/bin/dingo",
-		"/Users/seakelly/dev/dingo/example/ffsf/dingo_test_sinatra/dingo.yaml",
-		"/Users/seakelly/dev/kerpoof/eng/java/lib/util/src/kerpoof/util/LogUtil.java",
-		"/Users/seakelly/dev/woot_ml/woot_mahout/lib/post_preferences.csv",
-		"/Users/seakelly/dev/dingo/vagrant/cookbooks/dingo/recipes/default.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/cli.rb",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/seakelly/dev/service/services/voting/dingo.yaml",
-		"/Users/seakelly/dev/service/services/clustermaster/dingo.yaml",
-		"/Users/seakelly/dev/service/clusters/updates/vlm1/voting.rb",
-		"/Users/seakelly/dev/subl/README.md",
-		"/Users/seakelly/dev/dingo/vagrant/cookbooks/rvm/recipes/default.rb",
-		"/Users/seakelly/dev/dingo/example/README.md",
-		"/Users/seakelly/dev/dingo/templates/config.ru.erb",
-		"/Users/seakelly/dev/dingo/lib/dingo/commands/create_gem.rb",
-		"/Users/seakelly/dev/dingo/templates/module.erb",
-		"/Users/seakelly/dev/dingo/templates/version.erb",
-		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/config.ru",
-		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/lib/dingo_test_sinatra.rb",
-		"/Users/seakelly/dev/dingo/templates/sinatra.erb",
-		"/Users/seakelly/dev/dingo/lib/dingo.rb",
-		"/Users/seakelly/dev/dingo/lib/dingo/bootstrap.rb",
-		"/Users/seakelly/dev/dingo/vagrant/bootstrap.rb",
-		"/Users/seakelly/dev/dingo/templates/config.ru",
-		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/dingo.yaml",
-		"/Users/seakelly/dev/dingo/example/dingo_test_sinatra/lib/dingo_test_sinatra/version.rb",
-		"/Users/seakelly/dev/dingo/templates/dingo.erb",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/sample.md",
-		"/Users/seakelly/Library/Application Support/Sublime Text 2/Packages/Default/Darin:Johannes",
-		"/Users/seakelly/.bashrc",
-		"/Users/seakelly/dev/subl/kitchen/cookbooks/subl/recipes/install.rb",
-		"/Users/seakelly/dev/subl/bootstrap.rb",
-		"/Users/seakelly/dev/subl/install.rb"
+		"/Users/skelly/.rvm/gems/ruby-1.9.3-p392/gems/sinatra-1.4.2/lib/sinatra/base.rb",
+		"/Users/skelly/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_recorder/src/woot/nav/HomeScreen.as",
+		"/Users/skelly/dev/nimbee/edu/as/lib/woot_common/src/woot/Device.as",
+		"/Users/skelly/dev/woot_graph/OGDF/ogdf/internal/planarity/PQInternalNode.h",
+		"/Users/skelly/dev/nimbee_consulting/lib/public/sass/_nimbee.scss",
+		"/Users/skelly/dev/nimbee/edu/as/lib/woot_common/src/woot/ui/ToggleButton.as",
+		"/Users/skelly/dev/nimbee/edu/as/lib/woot_common/src/woot/display_util/Factory.as",
+		"/Users/skelly/dev/nimbee_consulting/lib/public/.sass-cache/90fcd070e8fdc7c934441929e806a5b8e7f33a35/_nimbee.scssc",
+		"/Users/skelly/dev/mines2013/pkg/rnnlib/src/Helpers.hpp",
+		"/Users/skelly/dev/nimbee/edu/as/lib/woot_common/src/woot/nav/WorkScreen.as",
+		"/Users/skelly/pro/nimbee/edu/as/lib/woot_common/src/woot/nav/WorkScreen.as",
+		"/Users/skelly/dev/nimbee/edu/as/lib/woot_common/src/woot/MainBase.as",
+		"/Users/skelly/pro/nimbee/edu/as/lib/woot_common/src/woot/ui/ScreenTile.as",
+		"/Users/skelly/dev/nimbee/edu/as/lib/woot_common/src/woot/style/WootStyle.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_pad/src/woot/nav/WorkScreen43ish.as",
+		"/Users/skelly/dev/nimbee/edu/as/lib/woot_common/src/woot/ui/UserTile.as",
+		"/Users/skelly/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_surface/src/woot/ui/IconButton.as",
+		"/Users/skelly/dev/nimbee_consulting/lib/public/index.html",
+		"/Users/skelly/dev/nimbee_consulting/lib/public/css/gumby.css",
+		"/Users/skelly/Wootmath Fractions - v2.graphml",
+		"/Users/skelly/subl/kitchen/cookbooks/subl/recipes/install.rb",
+		"/Users/skelly/dev/vagrant/cookbooks/nimbee_dev_server/files/default/nginx.conf",
+		"/Users/skelly/dev/kudu/vagrant/Vagrantfile",
+		"/Users/skelly/dev/vagrant/cookbooks/nimbee_dev_server/recipes/github.rb",
+		"/Users/skelly/dev/vagrant/foo.txt",
+		"/Users/skelly/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/skelly/dev/vagrant/cookbooks/nimbee_dev_server/recipes/default.rb",
+		"/Users/skelly/dev/kudu/vagrant/cookbooks/kudu/recipes/default.rb",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/views/gml.erb",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/WootMathApp.as",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_storage/lib/woot_storage.rb",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/data/sean_test_module.json",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/nav/WootNavigator.as",
+		"/Users/skelly/dev/nimbee/repo/as/lib/feathers/source/feathers/controls/ScreenNavigator.as",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/data/gap_test_module.json",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/test/Assesment.as",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_roster/lib/woot_roster.rb",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/nav/WorkspaceScreen.as",
+		"/Users/skelly/dev/kudu/lib/kudu/commands/build/build.rb",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/nav/WootScreen.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/display_util/Factory.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/Login.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/nav/HomeScreen.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/canvas/WootCanvas.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/display_util/onNextFrame.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/assets_src/build.rb",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/UserTile.as",
+		"/Volumes/shared/pool/woot_storage/template/_playlist.sean.",
+		"/Volumes/shared/pool/woot_storage/template/_playlist.sean.json",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/WootRosterEmbed.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/Store.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/nav/DashboardScreen.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/UnitComplete.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/UnitTile.as",
+		"/Users/skelly/pro/nimbee/edu/as/app/woot_math/src/woot/WootMathApp.as",
+		"/opt/projects/nimbee/edu/as/app/woot_math/src/woot/nav/RecordLoginScreen.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/WootRecordScreen.as",
+		"/Volumes/shared/pool/woot_storage/template/_playlist_sean_example.json",
+		"/Users/skelly/dev/twitter-bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.json",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/display_util/ImageUtil.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/UnitBox.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/atlas_encoder/src/main.as",
+		"/opt/projects/nimbee/edu/as/app/woot_math/src/assets/homepage.xml",
+		"/opt/projects/nimbee/repo/as/lib/feathers/themes/MetalWorksMobileTheme/assets/images/metalworks.xml",
+		"/Users/skelly/.bash_profile",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/package.sh",
+		"/opt/projects/nimbee/edu/as/app/woot_math/package_ios.sh",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/WootCanvas.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/Main.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/learning_model/Graph.as",
+		"/opt/projects/nimbee/edu/as/app/woot_math/src/woot/Main-app.xml",
+		"/opt/projects/nimbee/edu/as/app/woot_math/package.sh",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/woot_learning_model.rb",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/learning_model/VertexIterator.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/learning_model/WeakRef.as",
+		"/opt/projects/nimbee/edu/as/app/woot_math/src/woot/learning_model/Graph.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/learning_model/test/TestGraph.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/learning_model/ContentLoader.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/learning_model/test/TestLearningModel.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/nav/Screen.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/ui/NumberLine.as",
+		"/Users/skelly/dev/kudu/lib/kudu/commands/service_start/service_start.rb",
+		"/opt/projects/nimbee/edu/as/app/woot_math/do_post.sh",
+		"/opt/projects/nimbee/edu/ruby/app/woot_storage/random_data.sh",
+		"/opt/projects/nimbee/edu/ruby/app/woot_storage/do_post.sh",
+		"/opt/projects/nimbee/edu/as/app/woot_math/do_text.sh",
+		"/Users/skelly/dev/kudu/lib/kudu/commands/service_start/service_start_sinatra.rb",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/Storage.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/test/TestAPI.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/test/TestStorage.as",
+		"/Users/skelly/dev/nimbee/repo/as/lib/as3corelib/src/com/adobe/crypto/MD5.as",
+		"/Users/skelly/dev/twitter-bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.min.js",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/do_text.sh",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_roster/woot_roster.gemspec",
+		"/opt/projects/nimbee/edu/ruby/app/woot_storage/do_post_json.sh",
+		"/opt/projects/nimbee/edu/as/app/woot_math/src/woot/WootMathApp.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/test/TestStore.as",
+		"/Users/skelly/dev/nimbee/edu/as/app/woot_math/src/woot/api/ScreenStore.as",
+		"/Users/skelly/dev/nimbee/repo/as/lib/feathers/examples/TrainTimes/source/feathers/examples/trainTimes/themes/TrainTimesTheme.as",
+		"/opt/projects/nimbee/edu/as/app/woot_math/compile.rb",
+		"/Users/skelly/dev/jit/Jit/Examples/ForceDirected/example2.js",
+		"/opt/projects/nimbee/edu/ruby/app/woot_learning_model/kudu.yaml",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/views/sunburst.erb",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/public/sunburst.js",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/views/space_tree.erb",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/public/space_tree.js",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/data/dummy.rb",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/data/generator.rb",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/views/force_directed.erb",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/public/force_directed.js",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/data/fractions1_module.json",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/data/fractions1_concept.json",
+		"/Users/skelly/subl/kitchen/cookbooks/bash_setup/files/default/bin/fop.rb",
+		"/Users/skelly/dev/nimbee/repo/as/lib/feathers/examples/ComponentsExplorer/source/feathers/examples/componentsExplorer/Main.as",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/src/test/module.html",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/src/test/test.html",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/src/module.js",
+		"/Users/skelly/dev/nimbee/edu/ruby/app/woot_learning_model/lib/data/concept.json",
+		"/opt/projects/nimbee/edu/js/lib/woot_math/src/css/base.css",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/src/test/fractions1.json",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/src/css/RGraph.css",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/src/css/base.css",
+		"/Users/skelly/dev/twitter-bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/partials.json",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/src/test/concept.json",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/lib/Jit/Examples/Sunburst/example2.js",
+		"/Users/skelly/dev/nimbee/edu/js/lib/woot_math/kudu.yaml"
 	],
 	"find":
 	{
@@ -164,6 +363,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"<open folders>",
 			""
 		]
 	},
@@ -172,100 +372,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"main-file",
-			"library-path",
-			"source_path",
-			"mxmlc",
-			"source_path",
-			"side",
-			"sidebar",
-			"parse",
-			"status_code",
-			"glob",
-			"faraday",
-			"dingo",
-			"camel",
-			"gemspec",
-			"get_name_from",
-			"glob",
-			"get_name_from",
-			"name",
-			"all",
-			"log",
-			"with_logging",
-			"faraday",
-			"versbose",
-			"contract",
-			"faraday",
-			"contract",
-			"Mixins",
-			"Public",
+			"Application",
+			"media",
+			"in_context",
+			"Applicat",
+			"interactive",
+			"spec",
+			"unit_data",
+			"media",
+			"def",
+			"define_method",
+			"get",
+			"unit",
+			"uni",
+			"unit_data",
+			"params",
+			"def get",
+			"param",
+			"unit",
+			"canvas",
+			"speak",
+			"replace",
+			"speak",
+			"audio",
+			"speak",
+			"media",
+			"intro",
+			"screen",
+			"Delegate",
+			"speak",
+			"delega",
+			"pretty",
+			"Type",
+			"Typelib",
+			"CALLERS_TO_IGNORE",
+			"ignore",
+			"CALLER",
+			"callers_to",
+			"CALLERS_TO",
+			"CALLERS",
+			"CALLERS_TO_IGNORE",
+			"CALLERS_TO",
+			"cleaned_caller",
+			"caller_files",
+			"define_singleton",
+			"define_single",
+			"define_sin",
+			"set",
+			"run",
+			"'run?'",
+			"run?",
+			"run",
+			"run\\!",
 			"class",
-			"with_log",
-			"execute",
-			"generate_method",
-			"cws_",
-			"gem",
-			"version",
-			"full_name",
-			"vertex_from",
-			"full",
-			"LOG4J",
-			"info",
-			"cycle",
-			"next",
-			"window",
-			"next",
-			"tab",
-			"Command",
-			"rvm_use",
-			"ivy",
-			"vagrant",
-			"README",
-			"\n[",
-			"rvm",
-			"puppet",
-			"hot",
-			"puppet",
-			"Puppet",
-			"puppet",
-			"Puppet",
-			"Paginated",
-			"the",
-			"The",
-			"the",
-			"The",
-			"the",
-			"The",
-			"the",
-			"The",
-			"bash_setup",
-			"provision",
-			"debug",
+			"'class <<'",
+			"class <<",
+			"run",
+			"run!",
+			"public",
+			"get",
+			"Base",
+			"class Application",
+			"Application",
+			"Delegator",
+			"Del",
+			"Delegator",
+			"del",
+			"Del",
+			"module D",
+			"module",
+			"Del",
+			"Dele",
+			"Del",
+			"Dele",
+			"get",
+			"native",
+			"leg",
+			"data",
+			"COLOR_C",
+			"HIDE_COLOR_PICKER",
+			"show_color_picker",
+			"color_picker",
+			"Ui",
+			"ColorPicker",
+			"rectangle",
+			"Create",
+			"menu",
+			"Menu",
+			"menu",
+			"teacher",
+			"is_un",
+			"save",
+			"last_color",
+			"erase",
+			"i",
+			"color_pic",
+			"handle_pen",
+			"pause",
+			"recordi",
+			"play",
+			"pause",
+			"play",
+			"IS_STUDENT",
+			"hr",
+			"HR",
+			"create_text_button",
+			"teacher_label",
+			"label2",
+			"teacher",
+			"pivot",
+			"Home",
+			"WootPad",
+			"Teacher",
+			"dispatch",
+			"handle_erase",
+			"dispatchEvent",
+			"handle_erase",
+			"erase",
 			"toggle",
-			"keys",
-			"\n{",
-			"alt+l",
-			"SublimeREPL",
-			"app",
-			"FileUtils",
-			"usr_tgt",
-			"app_tgt",
-			"usr_dir",
-			"subl",
-			"Subl",
-			"app_dir",
-			"tarball",
-			"Subl",
-			"tar_dir",
-			"ctrl+D",
-			"find_",
-			"ctrl+D",
-			"Packages",
-			"cmd",
-			"Dir",
-			"\n`",
-			"close"
+			"COLOR_PIC",
+			"Student W",
+			"_triangle",
+			"menu",
+			"Menu",
+			"_trian",
+			"hr",
+			"color_picker",
+			"COLOR_PI",
+			"handle_pen_change"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -273,16 +507,28 @@
 		"regex": false,
 		"replace_history":
 		[
+			"trace",
+			"UIColors.INTERACTIVE",
+			"UIColors.TEXT_PRIMARY",
+			"File",
+			"/",
+			"",
+			"/opt/projects",
+			"../../../..",
+			"student[:name]",
+			"../../bootstrap/",
+			"../../bootstrap",
+			"bootstrap",
 			"wrangle",
 			"rvm",
 			"'\n",
 			"File",
 			"tar_dir"
 		],
-		"reverse": true,
+		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"incremental_find":
@@ -316,6 +562,14 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.vagrant":
+	{
+		"height": 102.0
+	},
 	"replace":
 	{
 		"height": 64.0
@@ -327,516 +581,516 @@
 		"selected_items":
 		[
 			[
-				"install_",
-				"kudu/install_flex.rb"
+				"zootcli.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/cli.rb"
 			],
 			[
-				"kududesk",
-				"kudu/desktop.rb"
+				"one.rb",
+				"nimbee/edu/ruby/lib/zoot/demo/one.rb"
 			],
 			[
-				"build_gem",
-				"kudu/lib/kudu/commands/build/build_gem.rb"
+				"one",
+				"nimbee/edu/ruby/lib/zoot/demo/one.rb"
 			],
 			[
-				"build_ar",
-				"kudu/lib/kudu/commands/build/build_air.rb"
+				"media.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/media.rb"
 			],
 			[
-				"nimbeekudu",
-				"nimbee/edu/as/app/woot_math/kudu.yaml"
+				"base.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/base.rb"
 			],
 			[
-				"flex_builder.b",
-				"kudu/lib/kudu/commands/build/flex_builder.rb"
+				"group.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/group.rb"
 			],
 			[
-				"main.as",
-				"kudu/example/kudu_example_swf/src/nimbee/woot_math/main.as"
+				"canvas.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/canvas.rb"
 			],
 			[
-				"error.rb",
-				"kudu/lib/kudu/error.rb"
+				"zootscree",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/screen.rb"
 			],
 			[
-				"gem_build",
-				"kudu/lib/kudu/commands/build/gem_builder.rb"
+				"screen.rb",
+				"mines2013/cookbooks/apache2/recipes/mod_env.rb"
 			],
 			[
-				"bash_setbash_al",
-				"subl/kitchen/cookbooks/bash_setup/files/default/bash_aliases"
+				"unit.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/unit.rb"
 			],
 			[
-				"subldef",
-				"subl/kitchen/cookbooks/subl/recipes/default.rb"
+				"interactive.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/interactive.rb"
 			],
 			[
-				"readmor",
-				"dingo/READMORE.md"
-			],
-			[
-				"readme.md",
-				"dingo/README.md"
-			],
-			[
-				"readmo",
-				"dingo/READMORE.md"
-			],
-			[
-				"read",
-				"dingo/README.md"
-			],
-			[
-				"reame",
-				"dingo/README.md"
-			],
-			[
-				"readme",
-				"dingo/example/README.md"
-			],
-			[
-				"rea",
-				"dingo/README.md"
-			],
-			[
-				"",
-				"dingo/READMORE.md"
-			],
-			[
-				"wuti",
-				"wrangle/lib/wrangle/util.rb"
-			],
-			[
-				"wbuil",
-				"wrangle/lib/wrangle/commands/build.rb"
-			],
-			[
-				"err",
-				"wrangle/lib/wrangle/error.rb"
-			],
-			[
-				"werr",
-				"wrangle/lib/wrangle/error.rb"
-			],
-			[
-				"dependen",
-				"dingo/lib/dingo/dependency_graph.rb"
-			],
-			[
-				"wrangel_pro",
-				"wrangle/lib/wrangle/wrangle_project.rb"
-			],
-			[
-				"wrangle_pr",
-				"wrangle/lib/wrangle/wrangle_project.rb"
-			],
-			[
-				".bash_pr",
-				"/Users/seakelly/.bash_profile"
-			],
-			[
-				"wrangle_pro",
-				"wrangle/lib/wrangle/wrangle_project.rb"
-			],
-			[
-				"wrangerr",
-				"wrangle/lib/wrangle/error.rb"
-			],
-			[
-				"build.r",
-				"wrangle/lib/wrangle/commands/build.rb"
-			],
-			[
-				"wranglecli",
-				"wrangle/lib/wrangle/cli.rb"
-			],
-			[
-				"util",
-				"wrangle/lib/wrangle/util.rb"
-			],
-			[
-				"wranglebuild",
-				"wrangle/lib/wrangle/commands/build.rb"
-			],
-			[
-				"wrangleuti",
-				"wrangle/lib/wrangle/util.rb"
-			],
-			[
-				"dingo/build",
-				"dingo/lib/dingo/commands/build.rb"
-			],
-			[
-				"dingo/depe",
-				"dingo/lib/dingo/dependency_graph.rb"
-			],
-			[
-				"wrangle",
-				"wrangle/lib/wrangle.rb"
-			],
-			[
-				"woot_rever",
-				"woot_ml/services/woot_recommend/lib/woot_recommend/version.rb"
-			],
-			[
-				"fac",
-				"woot_ml/services/woot_recommend/lib/woot_recommend/factory.rb"
-			],
-			[
-				"woot_re",
-				"woot_ml/services/woot_recommend/lib/woot_recommend.rb"
-			],
-			[
-				"util.rb",
-				"dingo/lib/dingo/util.rb"
-			],
-			[
-				"shot",
-				"dingo/lib/dingo/commands/shotgun.rb"
-			],
-			[
-				"rvm",
-				"dingo/lib/dingo/rvm_util.rb"
-			],
-			[
-				"woot_api/fa",
-				"woot_ml/gems/woot_api/lib/woot_api/factory.rb"
-			],
-			[
-				"woot_api",
-				"woot_ml/gems/woot_api/lib/woot_api.rb"
-			],
-			[
-				"woot_refa",
-				"woot_ml/services/woot_recommend/lib/woot_recommend/factory.rb"
-			],
-			[
-				"woot_apibas",
-				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
-			],
-			[
-				"woot_util",
-				"woot_ml/gems/woot_util/woot_util.gemspec"
-			],
-			[
-				"mongo_db",
-				"dingo/vagrant/cookbooks/mongo_db/recipes/default.rb"
-			],
-			[
-				"mongo_db/",
-				"dingo/vagrant/cookbooks/mongo_db/recipes/default.rb"
-			],
-			[
-				"mongoin",
-				"service/kitchen/cookbooks/installer/recipes/mongoinstaller.rb"
-			],
-			[
-				"woot_rec",
-				"woot_ml/services/woot_recommend/woot_recommend.gemspec"
-			],
-			[
-				"woot_recom",
-				"woot_ml/services/woot_recommend/lib/woot_recommend.rb"
-			],
-			[
-				"wootbase",
-				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
-			],
-			[
-				"woot_recomser",
-				"woot_ml/services/woot_recommend/lib/woot_recommend/service.rb"
-			],
-			[
-				"woot_recommend/fa",
-				"woot_ml/services/woot_recommend/lib/woot_recommend/factory.rb"
-			],
-			[
-				"woot_reco/fa",
-				"woot_ml/services/woot_reco/lib/woot_reco/factory.rb"
-			],
-			[
-				"voting/fac",
-				"service/services/voting/lib/voting/factory.rb"
-			],
-			[
-				"woot_reco",
-				"woot_ml/services/woot_reco/lib/woot_reco.rb"
+				"scree",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/screen.rb"
 			],
 			[
 				"base",
-				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/base.rb"
 			],
 			[
-				".git",
-				"woot_ml/.gitignore"
+				"",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/unit.rb"
 			],
 			[
-				"woot_api/base",
-				"woot_ml/gems/woot_api/lib/woot_api/base.rb"
+				"zootscreen",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/screen.rb"
 			],
 			[
-				"boot",
-				"subl/bootstrap.rb"
+				"zootscre",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/screen.rb"
+			],
+			[
+				"main.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/main.rb"
+			],
+			[
+				"woot_storage.rb",
+				"nimbee/edu/ruby/app/woot_storage/lib/woot_storage.rb"
+			],
+			[
+				"zootbase.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/base.rb"
+			],
+			[
+				"scre",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/screen.rb"
+			],
+			[
+				"zootbase",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/base.rb"
+			],
+			[
+				"canvas",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/canvas_area.rb"
+			],
+			[
+				"canvas_ar",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/canvas_area.rb"
+			],
+			[
+				"fraction_circle",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/fraction_circle.rb"
+			],
+			[
+				"interactive",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/interactive.rb"
+			],
+			[
+				"fraction",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/fraction_circle.rb"
+			],
+			[
+				"test_fraction",
+				"nimbee/edu/ruby/lib/zoot/test/test_fraction_circle.rb"
+			],
+			[
+				"test_fra",
+				"nimbee/edu/ruby/lib/zoot/test/test_fraction_circle.rb"
+			],
+			[
+				"fraction_circle.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/fraction_circle.rb"
+			],
+			[
+				"wootbase.rb",
+				"nimbee/edu/ruby/lib/woot_question_bank/lib/sample_code.rb"
+			],
+			[
+				"zoobase",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/base.rb"
+			],
+			[
+				"woot_roster.rb",
+				"woot_roster/lib/woot_roster.rb"
+			],
+			[
+				"answerchecker",
+				"nimbee/edu/as/lib/woot_common/src/woot/assessment/AnswerChecker.as"
+			],
+			[
+				"wootbase",
+				"woot_roster/lib/public/css/base.css"
+			],
+			[
+				"one.r",
+				"nimbee/edu/ruby/lib/zoot/demo/one.rb"
+			],
+			[
+				"asanswer",
+				"nimbee/edu/as/lib/woot_common/src/woot/assessment/AnswerChecker.as"
+			],
+			[
+				"three.rb",
+				"nimbee/edu/ruby/lib/zoot/demo/three.rb"
+			],
+			[
+				"bas",
+				"sinatra-1.4.2/lib/sinatra/base.rb"
+			],
+			[
+				"zooton",
+				"nimbee/edu/ruby/lib/zoot/demo/one.rb"
+			],
+			[
+				"zoot",
+				"/opt/projects/nimbee/edu/ruby/lib/zoot/bin/zoot.rb"
+			],
+			[
+				"sinatrabase",
+				"sinatra-1.4.2/lib/sinatra/base.rb"
+			],
+			[
+				"sinatrama",
+				"sinatra-1.4.2/lib/sinatra/main.rb"
+			],
+			[
+				"zootmain",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/main.rb"
+			],
+			[
+				"sinatramain",
+				"sinatra-1.4.2/lib/sinatra/main.rb"
+			],
+			[
+				"zoot.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot.rb"
+			],
+			[
+				"zootmain.",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/main.rb"
+			],
+			[
+				"main",
+				"nimbee/edu/as/app/woot_pad/src/woot/Main.as"
+			],
+			[
+				"sinbase.r",
+				"sinatra-1.4.2/lib/sinatra/base.rb"
+			],
+			[
+				"woot_roster",
+				"woot_roster/lib/woot_roster.rb"
+			],
+			[
+				"zootmain.rb",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/main.rb"
+			],
+			[
+				"example.rb",
+				"nimbee/edu/ruby/lib/gno/example.rb"
 			],
 			[
 				"build.rb",
-				"dingo/lib/dingo/commands/build.rb"
+				"kudu/lib/kudu/commands/build/build.rb"
 			],
 			[
-				"rename.rb",
-				"dingo/vagrant/cookbooks/bash_setup/files/default/bin/rename.rb"
+				"zootver",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/version.rb"
 			],
 			[
-				"dingo",
-				"dingo/bin/dingo"
+				"zootma",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/main.rb"
 			],
 			[
-				"dingoutil",
-				"dingo/lib/dingo/util.rb"
+				"bin/zoot",
+				"nimbee/edu/ruby/lib/zoot/bin/zoot"
 			],
 			[
-				"factory.r",
-				"service/gems/cws_api/lib/cws_api/factory.rb"
+				"module.erb",
+				"kudu/templates/module.erb"
 			],
 			[
-				"voting",
-				"service/services/voting/lib/voting.rb"
+				"zoot/ver",
+				"nimbee/edu/ruby/lib/zoot/lib/zoot/version.rb"
 			],
 			[
-				"item_rec",
-				"woot_ml/woot_mahout/lib/woot_mahout/item_recommender.rb"
+				"kudu.rb",
+				"kudu/lib/kudu.rb"
 			],
 			[
-				"woot_",
-				"woot_ml/woot_mahout/lib/woot_mahout.rb"
-			],
-			[
-				"dingo/def",
-				"dingo/vagrant/cookbooks/dingo/recipes/default.rb"
-			],
-			[
-				"bin/di",
-				"dingo/bin/dingo"
-			],
-			[
-				"readmore",
-				"dingo/READMORE.md"
-			],
-			[
-				"dep",
-				"dingo/lib/dingo/dependency_graph.rb"
-			],
-			[
-				"build.b",
-				"dingo/lib/dingo/commands/build.rb"
-			],
-			[
-				"dingo_test_gem",
-				"dingo/example/ffsf/dingo_test_gem/lib/dingo_test_gem.rb"
-			],
-			[
-				"dependencygraph",
-				"dingo/lib/dingo/dependency_graph.rb"
-			],
-			[
-				"readm",
-				"dingo/README.md"
+				"bin/kudu",
+				"kudu/bin/kudu"
 			],
 			[
 				"build",
-				"dingo/lib/dingo/commands/build.rb"
-			],
-			[
-				"log_",
-				"woot_ml/woot_mahout/lib/woot_mahout/log_util.rb"
-			],
-			[
-				"woot_ma",
-				"woot_ml/woot_mahout/lib/woot_mahout.rb"
-			],
-			[
-				"item_",
-				"woot_ml/woot_mahout/lib/woot_mahout/item_recommender.rb"
-			],
-			[
-				"woot_m",
-				"woot_ml/woot_mahout/lib/woot_mahout.rb"
-			],
-			[
-				"log_ut",
-				"woot_ml/woot_mahout/lib/woot_mahout/log_util.rb"
-			],
-			[
-				"log",
-				"dingo/log_util.rb"
-			],
-			[
-				"woot",
-				"woot_ml/woot_mahout/lib/woot_mahout.rb"
-			],
-			[
-				"cli.rb",
-				"dingo/lib/dingo/cli.rb"
-			],
-			[
-				"build.",
-				"dingo/lib/dingo/commands/build.rb"
-			],
-			[
-				"dingo.ya",
-				"dingo/example/ffsf/dingo_test_sinatra/dingo.yaml"
-			],
-			[
-				"dingo.y",
-				"woot_ml/woot_mahout/dingo.yaml"
-			],
-			[
-				"dingo_test_gem.rb",
-				"dingo_test_gem/lib/dingo_test_gem.rb"
-			],
-			[
-				"ding_test_sin",
-				"dingo_test_sinatra/dingo_test_sinatra.gemspec"
-			],
-			[
-				"voting/gem",
-				"service/services/voting/voting.gemspec"
-			],
-			[
-				"gemspec",
-				"dingo/templates/gemspec.erb"
-			],
-			[
-				"rvm_ut",
-				"dingo/lib/dingo/rvm_util.rb"
-			],
-			[
-				"sinatra",
-				"dingo/templates/sinatra.erb"
-			],
-			[
-				"create_",
-				"dingo/test/unit/create_sample_projects.rb"
-			],
-			[
-				"voting/versi",
-				"service/services/voting/lib/voting/version.rb"
-			],
-			[
-				"collection/ver",
-				"service/services/collection/lib/collection/version.rb"
-			],
-			[
-				"voting/din",
-				"service/services/voting/dingo.yaml"
-			],
-			[
-				"version.",
-				"dingo/templates/version.erb"
-			],
-			[
-				"disneydb_exerciser/ver",
-				"service/services/disneydb_exerciser/lib/disneydb_exerciser/version.rb"
-			],
-			[
-				"voting/vers",
-				"service/services/voting/lib/voting/version.rb"
-			],
-			[
-				"disneydb_exe",
-				"service/services/disneydb_exerciser/Gemfile.bu"
-			],
-			[
-				"ding",
-				"service/gems/cws_api/dingo.yaml"
-			],
-			[
-				"disneydb_exerciser/gem",
-				"service/services/disneydb_exerciser/Gemfile.bu"
-			],
-			[
-				"disneydb_ex",
-				"service/services/disneydb_exerciser/dingo.yaml"
-			],
-			[
-				"collection/gem",
-				"service/services/collection/Gemfile.bu"
-			],
-			[
-				"collection/dingo.yaml",
-				"service/services/collection/dingo.yaml"
-			],
-			[
-				"voting/ding",
-				"service/services/voting/dingo.yaml"
-			],
-			[
-				"clustermaster/din",
-				"service/services/clustermaster/dingo.yaml"
-			],
-			[
-				"clustermaster/ge",
-				"service/services/clustermaster/Gemfile.bu"
-			],
-			[
-				"clustermaster/gem",
-				"service/services/clustermaster/Gemfile.bu"
-			],
-			[
-				"clustermaster.gemspec",
-				"service/services/clustermaster/clustermaster.gemspec"
-			],
-			[
-				"clustermaster.gem",
-				"service/services/clustermaster/clustermaster.gemspec.bu"
-			],
-			[
-				"clustermaster/version.",
-				"service/services/clustermaster/lib/clustermaster/version.rb.bu"
-			],
-			[
-				"clustermaster/dingo.yaml",
-				"service/services/clustermaster/dingo.yaml"
-			],
-			[
-				"clustermaster/ver",
-				"service/services/clustermaster/lib/clustermaster/version.rb"
-			],
-			[
-				"clustermaster",
-				"service/services/clustermaster/lib/clustermaster.rb"
-			],
-			[
-				"subl/rea",
-				"subl/README.md"
-			],
-			[
-				"util.",
-				"util.rb"
-			],
-			[
-				"uti",
-				"rvm_util.rb"
-			],
-			[
-				"clea",
-				"commands/real_clean.rb"
+				"kudu/lib/kudu/commands/build/build.rb"
 			],
 			[
 				"create",
-				"test_create_gem.rb"
+				"kudu/lib/kudu/commands/create_project/create_project_gem.rb"
 			],
 			[
-				"services/voting/din",
-				"services/voting/dingo.yaml"
+				"binkudu",
+				"kudu/bin/kudu"
 			],
 			[
-				"bash",
-				"vagrant/cookbooks/desktop_setup/files/default/bash_profile"
+				"createprojectsin",
+				"kudu/lib/kudu/commands/create_project/create_project_sinatra.rb"
 			],
 			[
-				"vagran",
-				"vagrant/Vagrantfile"
+				"create_",
+				"kudu/lib/kudu/commands/create_project/create_project_gem.rb"
+			],
+			[
+				"woot_stoku",
+				"nimbee/edu/ruby/app/woot_storage/kudu.yaml"
+			],
+			[
+				"kudu.ya",
+				"woot_roster/kudu.yaml"
+			],
+			[
+				"woot_rostkud",
+				"woot_roster/kudu.yaml"
+			],
+			[
+				"zootkudu",
+				"nimbee/edu/ruby/lib/zoot/kudu.yaml"
+			],
+			[
+				"create_proj",
+				"kudu/lib/kudu/commands/create_project/create_project_gem.rb"
+			],
+			[
+				"_nim",
+				"nimbee_consulting/lib/public/sass/_nimbee.scss"
+			],
+			[
+				"in",
+				"nimbee_consulting/lib/public/index.html"
+			],
+			[
+				"device",
+				"nimbee/edu/as/lib/woot_common/src/woot/Device.as"
+			],
+			[
+				"lau",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/LaunchScreen.as"
+			],
+			[
+				"dev",
+				"nimbee/edu/as/lib/woot_common/src/woot/Device.as"
+			],
+			[
+				"woot_rehome",
+				"nimbee/edu/as/app/woot_recorder/src/woot/nav/HomeScreen.as"
+			],
+			[
+				"home",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/HomeScreen.as"
+			],
+			[
+				"woot_padhome",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/HomeScreen.as"
+			],
+			[
+				"laun",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/LaunchScreen.as"
+			],
+			[
+				"work",
+				"nimbee/edu/as/lib/woot_common/src/woot/nav/WorkScreen.as"
+			],
+			[
+				"workscre",
+				"nimbee/edu/as/lib/woot_common/src/woot/nav/WorkScreen43.as"
+			],
+			[
+				"launch",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/LaunchScreen.as"
+			],
+			[
+				"tool",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/Toolbar.as"
+			],
+			[
+				"uipubsub",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/UIPubSub.as"
+			],
+			[
+				"toolbar",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/Toolbar.as"
+			],
+			[
+				"colo",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/ColorPicker.as"
+			],
+			[
+				"color",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/ColorPicker.as"
+			],
+			[
+				"woot_rechome",
+				"nimbee/edu/as/app/woot_recorder/src/woot/nav/HomeScreen.as"
+			],
+			[
+				"wootpa",
+				"nimbee/edu/as/app/woot_pad/src/woot/WootPadApp.as"
+			],
+			[
+				"woot_recohome",
+				"nimbee/edu/as/app/woot_recorder/src/woot/nav/HomeScreen.as"
+			],
+			[
+				"menuo",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/MenuOverlay.as"
+			],
+			[
+				"woot_rehomescree",
+				"nimbee/edu/as/app/woot_recorder/src/woot/nav/HomeScreen.as"
+			],
+			[
+				"cont",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/ContinuousScroller.as"
+			],
+			[
+				"pal",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/Palette.as"
+			],
+			[
+				"contin",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/ContinuousScroller.as"
+			],
+			[
+				"wootcanvas",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/canvas/WootCanvas.as"
+			],
+			[
+				"colorpicker",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/ColorPicker.as"
+			],
+			[
+				"toolb",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/Toolbar.as"
+			],
+			[
+				"colorpicker.as",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/ColorPicker.as"
+			],
+			[
+				"factor",
+				"nimbee/edu/as/lib/woot_common/src/woot/display_util/Factory.as"
+			],
+			[
+				"wootpadnav",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/WootPadNavigator.as"
+			],
+			[
+				"wootna",
+				"nimbee/edu/as/lib/woot_common/src/woot/nav/WootNavigator.as"
+			],
+			[
+				"homescre",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/HomeScreen.as"
+			],
+			[
+				"wootmath",
+				"nimbee/edu/as/app/woot_math/src/woot/nav/WootMathNavigator.as"
+			],
+			[
+				"wootpad",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/WootPadNavigator.as"
+			],
+			[
+				"wootpadapp",
+				"nimbee/edu/as/app/woot_pad/src/woot/WootPadApp.as"
+			],
+			[
+				"sizes",
+				"nimbee/edu/as/lib/woot_common/src/woot/style/Sizes.as"
+			],
+			[
+				"toggle",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/ToggleButton.as"
+			],
+			[
+				"fact",
+				"nimbee/edu/as/lib/woot_common/src/woot/display_util/Factory.as"
+			],
+			[
+				"uic",
+				"nimbee/edu/as/lib/woot_common/src/woot/style/UIColors.as"
+			],
+			[
+				"fac",
+				"nimbee/edu/as/lib/woot_common/src/woot/display_util/Factory.as"
+			],
+			[
+				"uico",
+				"nimbee/edu/as/lib/woot_common/src/woot/style/UIColors.as"
+			],
+			[
+				"factory",
+				"nimbee/edu/as/lib/woot_common/src/woot/display_util/Factory.as"
+			],
+			[
+				"sizes.",
+				"nimbee/edu/as/lib/woot_common/src/woot/style/Sizes.as"
+			],
+			[
+				"teacher",
+				"nimbee/edu/as/lib/woot_common/src/woot/nav/TeacherScreen.as"
+			],
+			[
+				"toolba",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/Toolbar.as"
+			],
+			[
+				"woot_rec",
+				"nimbee/edu/as/app/woot_recorder/src/woot/style/WOOT_RECORDER_STYLE.as"
+			],
+			[
+				"too",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/Toolbar43.as"
+			],
+			[
+				"jtween",
+				"nimbee/edu/as/lib/woot_common/src/woot/display_util/JTween.as"
+			],
+			[
+				"palett",
+				"nimbee/edu/as/lib/woot_common/src/woot/ui/PaletteChooser.as"
+			],
+			[
+				"wootpadna",
+				"nimbee/edu/as/app/woot_pad/src/woot/nav/WootPadNavigator.as"
+			],
+			[
+				"_ni",
+				"nimbee_consulting/lib/public/sass/_nimbee.scss"
+			],
+			[
+				"index",
+				"nimbee_consulting/lib/public/index.html"
+			],
+			[
+				"_typ",
+				"nimbee_consulting/lib/public/sass/_typography.scss"
+			],
+			[
+				"_sett",
+				"nimbee_consulting/lib/public/sass/var/_settings.scss"
+			],
+			[
+				"nim",
+				"nimbee_consulting/lib/nimbee_consulting.rb"
+			],
+			[
+				"nimbee_consulting.rb",
+				"nimbee_consulting/lib/nimbee_consulting.rb"
+			],
+			[
+				"_nimbe",
+				"nimbee_consulting/lib/public/sass/_nimbee.scss"
+			],
+			[
+				"_nimb",
+				"nimbee_consulting/lib/public/sass/_nimbee.scss"
 			]
 		],
 		"width": 0.0
@@ -850,9 +1104,9 @@
 		"width": 0.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
-	"show_tabs": true,
+	"show_open_files": true,
+	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 258.0,
+	"side_bar_width": 250.0,
 	"status_bar_visible": true
 }
